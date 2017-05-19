@@ -2,23 +2,18 @@
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
+  margin-top: 67px;
 }
 .greyBackground {
   background: #0e212b;
   color: white;
   text-align: center;
   min-height: 50vh;
+  padding: 0 67px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
-.greyBackground.noMinHeight {
-  min-height: 0;
-  padding: 1rem;
-}
-.greyBackground:first-child {
-  padding-top: 4rem;
 }
 @media (max-width: 460px) {
   .greyBackground {
@@ -56,6 +51,7 @@ body {
 }
 .imageAndCaption .img {
   width: 200px;
+  height: 200px;
   flex-basis: 200px;
   flex-shrink: 0;
   flex-grow: 0;
@@ -76,12 +72,14 @@ body {
 }
 .buttonLike {
   color: white;
-  display: block;
-  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 5px;
   margin: 0 0.5rem;
   text-decoration: none;
   text-align: center;
+  padding: 0.5rem;
 }
 #topButtons {
   position: fixed;
@@ -91,15 +89,25 @@ body {
   padding: 1rem;
   background: #0e212b;
   display: flex;
+  height: 67px;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 #topButtons a {
   color: white;
-  display: block;
-  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 5px;
   margin: 0 0.5rem;
   text-decoration: none;
   text-align: center;
+  padding: 0.5rem;
+}
+@media (max-width: 390px) {
+  #topButtons {
+    font-size: 70%;
+  }
 }
 @media (max-width: 550px) {
   #topButtons .AppName {
@@ -130,22 +138,26 @@ div#firstSlide .ctas {
   background-color: white;
   color: #0e212b !important;
   color: white;
-  display: block;
-  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 5px;
   margin: 0 0.5rem;
   text-decoration: none;
   text-align: center;
+  padding: 0.5rem;
 }
 .signup {
   background-color: #88aa02;
   color: white;
-  display: block;
-  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 5px;
   margin: 0 0.5rem;
   text-decoration: none;
   text-align: center;
+  padding: 0.5rem;
 }
 .imageAndCaption,
 .justText {

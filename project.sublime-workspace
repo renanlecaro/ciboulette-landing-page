@@ -4,16 +4,24 @@
 		"selected_items":
 		[
 			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"bar",
+				"barHeight"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
 				"st",
 				"style"
 			],
 			[
 				"padding",
 				"padding-top"
-			],
-			[
-				"margi",
-				"margin-top"
 			],
 			[
 				"min",
@@ -284,10 +292,6 @@
 				"invoiceContainer"
 			],
 			[
-				"max",
-				"max-height"
-			],
-			[
 				"he",
 				"heightWithFS2"
 			],
@@ -510,41 +514,11 @@
 			[
 				"view",
 				"ViewModel"
-			],
-			[
-				"pr",
-				"previousWeek"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "index.jade",
-			"settings":
-			{
-				"buffer_size": 12778,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "html"
-			}
-		},
-		{
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "style.less",
-			"settings":
-			{
-				"buffer_size": 2541,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -617,13 +591,21 @@
 	},
 	"expanded_folders":
 	[
-		"/home/renan/cyberlegume-landing-page"
+		"/home/renan/cyberlegume-landing-page/img",
+		"/home/renan/cyberlegume-landing-page/node_modules"
 	],
 	"file_history":
 	[
+		"/home/renan/cyberlegume-landing-page/scripts.js",
+		"/home/renan/cyberlegume-landing-page/img/_watch.sh",
+		"/home/renan/cyberlegume-landing-page/img/_generateThumbs.sh",
+		"/home/renan/cyberlegume-landing-page/index.jade",
+		"/home/renan/cyberlegume-landing-page/style.less",
+		"/home/renan/cyberlegume-landing-page/start.sh",
+		"/home/renan/cyberlegume-landing-page/img/generateThumbs.sh",
+		"/home/renan/cyberlegume-landing-page/generateThumbs.sh",
 		"/home/renan/cyberlegume-landing-page/package.json",
 		"/home/renan/cyberlegume-landing-page/.gitignore",
-		"/home/renan/cyberlegume-landing-page/start.sh",
 		"/home/renan/cyberlegume-landing-page/dev.sh",
 		"/home/renan/cl2/pullData.sh",
 		"/home/renan/cl2/client/Main/successNotif.js",
@@ -741,14 +723,7 @@
 		"/home/renan/cl2/client/modale/modale.js",
 		"/home/renan/cl2/settings.import.less",
 		"/home/renan/cl2/lib/both/root classes/Orders.js",
-		"/home/renan/cl2/lib/global UI helpers/euros.js",
-		"/home/renan/cl2/lib/global UI helpers/clientName.js",
-		"/home/renan/cl2/client/ThisWeek/invoices/paymentOptions.js",
-		"/home/renan/cl2/client/ThisWeek/accounting/accounting.less",
-		"/home/renan/cl2/client/ThisWeek/invitation/review/UserHtmlDescription.js",
-		"/home/renan/cl2/client/ThisWeek/invoices/UserHtmlDescriptionModale.js",
-		"/home/renan/cl2/client/ThisWeek/form/products/productEditorModal.less",
-		"/home/renan/cl2/client/modale/modale.jade"
+		"/home/renan/cl2/lib/global UI helpers/euros.js"
 	],
 	"find":
 	{
@@ -894,6 +869,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\\t",
+			" Cybe",
+			"mail",
+			"panniers|prets|Un simple outils|gèrez vous même|envoie|un lieux|récupèrer|copier coller|Il suivent|pour le cas ou|massicotter|exigeances|de vous rappeller|qui à payé|apparaitera|appeller|ils tente|accélére|a la fois|un mails|Ca|accèder|repercutés|les seconde suivante|l'admin|batons|rendez vous|Gèrez|vous même|rêglement ",
+			" *\\n",
+			"=>",
+			"panniers",
+			"var",
+			"getElementById",
+			"href",
+			"img(src=\"",
+			"suiviCommandes",
+			"\\n",
+			"effic",
 			"avanta",
 			"\\t",
 			"\\þ",
@@ -1007,21 +996,7 @@
 			"addCommentToList",
 			"comments",
 			"notifySeller",
-			"dpName",
-			"openm",
-			"order",
-			"dpIdToText",
-			"getw",
-			"getInvoiceData",
-			"i18n",
-			"tr",
-			"getcl",
-			"f5f5f5",
-			"#f5f5f5",
-			"nodes",
-			"});\n",
-			"padd",
-			"paddVertically"
+			"dpName"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1075,94 +1050,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 12778,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								12295,
-								12295
-							]
-						],
-						"settings":
-						{
-							"auto_name": "html",
-							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 3334.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"default_dir": "/home/renan/cyberlegume-landing-page",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "style.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2541,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								539,
-								539
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1226,6 +1115,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"star",
+				"start.sh"
+			],
 			[
 				"push",
 				"pushprod.sh"
@@ -1733,10 +1626,6 @@
 			[
 				"clientcl",
 				"lib/both/root classes/ClientClass.js"
-			],
-			[
-				"clientn",
-				"lib/global UI helpers/clientName.js"
 			]
 		],
 		"width": 0.0
@@ -1767,7 +1656,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 330.0,
+	"side_bar_width": 283.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

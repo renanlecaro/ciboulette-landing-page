@@ -1,24 +1,19 @@
+@grey: #0e212b;
+@green: #88aa02;
+@topbarHeight: 67px;
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700&subset=latin,latin-ext);
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    margin-top: @topbarHeight;
 }
 
-@grey: #0e212b;
-@green: #88aa02;
 .greyBackground {
     background: @grey;
     color: white;
     text-align: center;
     min-height: 50vh;
-    &.noMinHeight {
-        min-height: 0;
-        padding: 1rem;
-    }
-    &:first-child {
-        // To leave some space for the top bar
-        padding-top: 4rem;
-    }
+    padding: 0 @topbarHeight;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,6 +49,7 @@ body {
     }
     .img {
         width: 200px;
+        height: 200px;
         flex-basis: 200px;
         flex-shrink: 0;
         flex-grow: 0;
@@ -76,12 +72,14 @@ body {
 
 .buttonLike {
     color: white;
-    display: block;
-    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 5px;
     margin: 0 0.5rem;
     text-decoration: none;
     text-align: center;
+    padding: 0.5rem;
 }
 
 #topButtons {
@@ -92,8 +90,14 @@ body {
     padding: 1rem;
     background: @grey;
     display: flex;
+    height: @topbarHeight;
+    box-sizing: border-box;
+    overflow: hidden;
     a {
         .buttonLike;
+    }
+    @media(max-width:390px) {
+        font-size: 70%;
     }
     @media(max-width: 550px) {
         .AppName {
