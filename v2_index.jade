@@ -1,0 +1,43 @@
+mixin slide(screenshotId)
+    .slide(class!=attributes.class): .wrapper
+        .img: img(src!='./img/screenshots/'+screenshotId+'_320x568.png')
+        .content
+            block
+
+mixin svgSlide(svgId)
+    .slide(class!=attributes.class): .wrapper
+        .img: img(src!='./svg/'+svgId+'.svg')
+        .content
+            block
+
+
+
++svgSlide('app_mock')
+    h2 Prise de commande automatique
+    p Pour fruits & légumes bio
+    a.button(href="https://app.cyberlegu.me") Essayer gratuitement
+
++svgSlide('c')
+    h2 Pour qui ?
+    ul.check
+        li Vous présentez votre offre produit avec un mail hebdomadaire.
+        li Vos clients répondent avec les quantités voulues.
+        li Vous proposez un ou plusieurs rendez-vous pour récupérer les paniers
+    p Alors cyberlégume est fait pour vous.
+
++svgSlide('simple')
+    h2 Simple
+    p Indiquez just vos produits, vos clients et vos rendez-vous.
+    p Mettez à jours ces listes la semaine suivante.
+
+include ./pratique_clients.jade
+include ./avance.jade
+include ./sympa.jade
+include ./moderne.jade
+include ./fonctionnement.jade
+
+
++slide('018-confirmation-email')
+    h1 Génération de documents
+    p Cyberlégume vous sort les factures, tickets de caisse, et des documents imprimables pour vous aider à préparer vos paniers.
+
