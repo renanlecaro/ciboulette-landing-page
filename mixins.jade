@@ -1,0 +1,29 @@
+mixin page(title, description)
+    html
+        head
+            meta(charset="UTF-8")
+            title=title
+            meta(name="description" content=description)
+            link(rel="stylesheet" href="./style.css")
+            link(rel='shortcut icon' type='image/png' href='/favicon.png')
+            meta(name="viewport" content="width=device-width, initial-scale=1")
+            meta(name='twitter:site', content='@CyberLegume')
+            meta(name='twitter:title', content='CyberLégume')
+            meta(name='twitter:creator', content='@RenanLeCaro')
+            meta(name='twitter:image', content='http://i.imgur.com/lbAdWnq.png')
+            meta(property='og:title', content='CyberLégume')
+            meta(property='og:type', content='website')
+            meta(property='og:url', content='https://cyberlegu.me/')
+            meta(property='og:image', content='http://i.imgur.com/lbAdWnq.png')
+            meta(property='og:description', content='CyberLégume est un système de Commande en ligne dédiés aux maraichers en vente directe.')
+            meta(property='og:site_name', content='CyberLégume')
+            meta(property='fb:admins', content='1136448477')
+        body
+            block
+            nav#topMenu
+                a(href="/").appName Cyberlégume
+                a(href="/premiere_vente.html") Première vente
+                a(href="/fonctions.html") Fonctions avancées
+                .grow
+                a(target="_blank" href="http://app.cyberlegu.me").try Essayer gratuitement
+            script(src="./scripts.js")

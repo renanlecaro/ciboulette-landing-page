@@ -37,3 +37,7 @@ each(document.getElementsByClassName('slideShow'), function (slideShowRoot) {
     refresh()
   })
 })
+
+each(document.querySelectorAll('a[href="'+window.location.pathname+'"]'), function (link) {
+  link.classList.add('isCurrentPage')
+})

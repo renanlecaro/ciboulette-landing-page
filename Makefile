@@ -1,10 +1,14 @@
-all: scss jade images
+all: scss jade images serve
 
 scss:
 	autoless .
 
 jade:
-	jade index.jade --watch
+	pug *.pug --watch
 
 images:
 	bash ./img/_watch.sh
+
+serve:
+	http-server
+

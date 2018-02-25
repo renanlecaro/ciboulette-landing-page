@@ -4,7 +4,7 @@
     "description": "Landing page for the cyberlegu.me app",
     "main": "index.html",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "make -j4"
     },
     "repository": {
         "type": "git",
@@ -16,5 +16,8 @@
         "url": "https://github.com/renanlecaro/cyberlegume-landing-page/issues"
     },
     "homepage": "https://cyberlegu.me",
-    "devDependencies": {}
+    "devDependencies": {
+        "pug-cli": "*",
+        "http-server": "*"
+    }
 }
