@@ -13,16 +13,24 @@ body {
 }
 
 .slide {
+  &:after{
+    content:"";
+    height: 70vh;
+    width:1px;
+    display: block;
+  }
   padding: 1rem;
-  min-height: 70vh;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
   .wrapper {
-    max-width: 1200px;
     width: 100%;
+    max-width: 1560px;
     margin: 0 auto;
     position: relative;
+    box-sizing: border-box;
 
     @media (min-width: 800px) {
       padding-left: 52.5%;
@@ -39,11 +47,32 @@ body {
         bottom: 0;
       }
       & > img {
-        width: auto;
-        max-width: 80vw;
+        width: 100%;
 
+        @media (max-width: 800px) {
+          max-width: 70vw;
+          max-height: 50vh;
+          margin: 40px;
+        }
+        @media (min-width: 800px) {
+          max-width: 30vw;
+        }
+        flex-grow:1;
+        flex-shrink: 1;
+
+        max-height: 100%;
         &.upScale {
+          max-height: 400px;
           height: 50vh;
+        }
+      }
+      &.touchLeft{
+        // The arrow coming from the left graph for ideas
+        margin-left: -1rem;
+        justify-content: flex-start;
+        &>img{
+          margin-left: 0;
+          max-width: 100%;
         }
       }
     }
@@ -277,9 +306,6 @@ nav#topMenu {
   line-height: 1.5;
   order: 2;
   .part {
-    @media (min-width: 800px) {
-      width: 50%;
-    }
     padding: 2em;
     a {
       margin: 0 5px;

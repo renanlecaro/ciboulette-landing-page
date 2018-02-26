@@ -12,16 +12,24 @@ body {
 }
 .slide {
   padding: 1rem;
-  min-height: 70vh;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
+}
+.slide:after {
+  content: "";
+  height: 70vh;
+  width: 1px;
+  display: block;
 }
 .slide .wrapper {
-  max-width: 1200px;
   width: 100%;
+  max-width: 1560px;
   margin: 0 auto;
   position: relative;
+  box-sizing: border-box;
 }
 @media (min-width: 800px) {
   .slide .wrapper {
@@ -43,11 +51,34 @@ body {
   }
 }
 .slide .wrapper > .img > img {
-  width: auto;
-  max-width: 80vw;
+  width: 100%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  max-height: 100%;
+}
+@media (max-width: 800px) {
+  .slide .wrapper > .img > img {
+    max-width: 70vw;
+    max-height: 50vh;
+    margin: 40px;
+  }
+}
+@media (min-width: 800px) {
+  .slide .wrapper > .img > img {
+    max-width: 30vw;
+  }
 }
 .slide .wrapper > .img > img.upScale {
+  max-height: 400px;
   height: 50vh;
+}
+.slide .wrapper > .img.touchLeft {
+  margin-left: -1rem;
+  justify-content: flex-start;
+}
+.slide .wrapper > .img.touchLeft > img {
+  margin-left: 0;
+  max-width: 100%;
 }
 .slide .wrapper h1,
 .slide .wrapper h2 {
@@ -197,11 +228,6 @@ nav#topMenu .grow {
 }
 .footer .part {
   padding: 2em;
-}
-@media (min-width: 800px) {
-  .footer .part {
-    width: 50%;
-  }
 }
 .footer .part a {
   margin: 0 5px;
