@@ -51,9 +51,8 @@ body {
   }
 }
 .slide .wrapper > .img > img {
-  width: 100%;
-  flex-grow: 1;
-  flex-shrink: 1;
+  width: auto;
+  height: auto;
   max-height: 100%;
 }
 @media (max-width: 800px) {
@@ -69,8 +68,9 @@ body {
   }
 }
 .slide .wrapper > .img > img.upScale {
-  max-height: 400px;
+  width: 100%;
   height: 50vh;
+  max-height: 400px;
 }
 .slide .wrapper > .img.touchLeft {
   margin-left: -1rem;
