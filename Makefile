@@ -4,7 +4,7 @@ scss:
 	autoless .
 
 jade:
-	pug *.pug --watch
+	pug -O "{price: '14.90'}" *.pug --watch
 
 images:
 	bash ./img/_watch.sh

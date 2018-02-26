@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="83.235474mm"
+   height="46.704834mm"
+   viewBox="0 0 294.92884 165.48957"
+   id="svg7543"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="tarif.svg">
+  <defs
+     id="defs7545" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="203.76587"
+     inkscape:cy="69.021807"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1855"
+     inkscape:window-height="1056"
+     inkscape:window-x="1431"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7548">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(259.60728,-449.61743)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.82590675px;line-height:200%;font-family:roboto;-inkscape-font-specification:'roboto, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-231.33989"
+       y="492.92902"
+       id="text7332"
+       sodipodi:linespacing="200%"><tspan
+         sodipodi:role="line"
+         x="-231.33989"
+         y="492.92902"
+         id="tspan7336"
+         style="line-height:200%" /><tspan
+         sodipodi:role="line"
+         x="-231.33989"
+         y="532.92902"
+         style="line-height:200%"
+         id="tspan7416">SMS envoyé</tspan><tspan
+         sodipodi:role="line"
+         x="-231.33989"
+         y="572.92902"
+         style="line-height:200%"
+         id="tspan7472">Mail envoyé</tspan></text>
+    <path
+       style="display:inline;opacity:1;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.59166127px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -100.96322,462.74941 0,109.96933"
+       id="path7338"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.82590675px;line-height:200%;font-family:roboto;-inkscape-font-specification:'roboto, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-43.965115"
+       y="526.91742"
+       id="text7332-7"
+       sodipodi:linespacing="200%"><tspan
+         sodipodi:role="line"
+         x="-43.965115"
+         y="526.91742"
+         style="line-height:200%;text-align:center;text-anchor:middle"
+         id="tspan7439">300/mois</tspan><tspan
+         sodipodi:role="line"
+         x="-43.965115"
+         y="566.91742"
+         style="line-height:200%;text-align:center;text-anchor:middle"
+         id="tspan7474">2000/mois</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.82590675px;line-height:125%;font-family:roboto;-inkscape-font-specification:'roboto, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-67.214729"
+       y="479.64886"
+       id="text7332-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-67.214729"
+         y="479.64886"
+         id="tspan7336-63">Limite</tspan></text>
+    <path
+       style="display:inline;opacity:1;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.8813411px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 9.5113933,495.09214 -244.0131833,0"
+       id="path7338-4"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.82590675px;line-height:125%;font-family:roboto;-inkscape-font-specification:'roboto, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-233.01529"
+       y="481.31973"
+       id="text7332-4-7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-233.01529"
+         y="481.31973"
+         id="tspan7336-63-0">Action</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.64086342px;line-height:125%;font-family:roboto;-inkscape-font-specification:'roboto, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-236.61964"
+       y="599.8136"
+       id="text7332-4-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-236.61964"
+         y="599.8136"
+         id="tspan7516">Si vous avez besoin de plus, merci de nous contacter</tspan></text>
+  </g>
+</svg>

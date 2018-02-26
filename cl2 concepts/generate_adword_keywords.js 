@@ -1,5 +1,0 @@
-let program=["Programme","Logiciel","Service","Système","Site web","App","Technique"]
-let way=["de vente en ligne","de vente","pour vendre","commande","de commande", "pour commander","vente","vente directe"]
-let prod=["fruit","légumes","fruits & légumes", "panier", "panier bio", "pour maraicher","maraichage", "produits bio","pour producteur bio"]
-
-program.forEach(p=>way.forEach(w=>prod.forEach(t=>console.log([p,w,t].join(' ')))))
