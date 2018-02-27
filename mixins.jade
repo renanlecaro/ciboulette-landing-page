@@ -21,12 +21,14 @@ mixin page(title, description)
         body
             block
             nav#topMenu
-                a(href="/").appName Cyberlégume
-                a(href="/premiere_vente.html") Première vente
-                a(href="/fonctions.html") Fonctions avancées
-                a(href="/tarif.html") Prix
-                .grow
-                a(target="_blank" href="http://app.cyberlegu.me").try Essayer gratuitement
+              input(type="checkbox")#toggleMenu
+              a(href="/").appName Cyberlégume
+              a(href="/premiere_vente.html") Première vente
+              a(href="/fonctions.html") Fonctions avancées
+              a(href="/tarif.html") Prix
+              .grow
+              a(target="_blank" href="http://app.cyberlegu.me").try Essayer gratuitement
+              label(for="toggleMenu").toggleMenu Menu
             .footer
               .part
                 div.dim Cyberlégume est édité par

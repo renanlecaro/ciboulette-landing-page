@@ -31,6 +31,11 @@ body {
   position: relative;
   box-sizing: border-box;
 }
+@media (max-width: 800px) {
+  .slide .wrapper.centerOnSmallScreen {
+    text-align: center;
+  }
+}
 @media (min-width: 800px) {
   .slide .wrapper {
     padding-left: 52.5%;
@@ -59,7 +64,7 @@ body {
   .slide .wrapper > .img > img {
     max-width: 70vw;
     max-height: 50vh;
-    margin: 40px;
+    margin: 10px;
   }
 }
 @media (min-width: 800px) {
@@ -80,6 +85,12 @@ body {
   margin-left: 0;
   max-width: 100%;
 }
+@media (min-width: 800px) {
+  .slide .wrapper > .img.touchLeft > img {
+    position: absolute;
+    left: -1rem;
+  }
+}
 .slide .wrapper h1,
 .slide .wrapper h2 {
   font-weight: 100;
@@ -91,7 +102,7 @@ body {
   .slide .wrapper h2 {
     font-size: 2em;
     font-weight: 400;
-    margin: 40px 0;
+    margin: 40px 0 0 0;
     text-align: center;
   }
 }
@@ -150,33 +161,60 @@ ul.check li:before {
   background-size: contain;
   background-repeat: no-repeat;
 }
-@media (max-width: 800px) {
-  body {
-    display: flex;
-    flex-direction: column;
-  }
-  .slide {
-    order: 1;
-  }
-}
 nav#topMenu {
+  z-index: 10;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   display: flex;
-  background: #75c2f3;
-  z-index: 2;
+  background: #89caf5;
+}
+nav#topMenu #toggleMenu {
+  position: absolute;
+  left: -1000px;
+  opacity: 0;
+}
+nav#topMenu label.toggleMenu {
+  display: none;
+  position: absolute;
+  bottom: -60px;
+  right: 0;
+  padding: 10px;
+  background: #3091cf;
+  color: #ffffff;
+  margin: 10px;
+  text-transform: uppercase;
 }
 @media (max-width: 800px) {
   nav#topMenu {
-    position: initial;
-    order: 0;
     flex-wrap: wrap;
     flex-direction: column;
+    background: none;
   }
   nav#topMenu a.try {
     align-self: flex-end;
+  }
+  nav#topMenu #toggleMenu ~ a {
+    display: none;
+    z-index: 1;
+  }
+  nav#topMenu #toggleMenu:checked ~ a {
+    display: block;
+  }
+  nav#topMenu label.toggleMenu {
+    display: block;
+  }
+  nav#topMenu #toggleMenu:checked ~ .toggleMenu:before {
+    content: "";
+    display: block;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.2);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
   }
 }
 nav#topMenu a {
@@ -184,6 +222,7 @@ nav#topMenu a {
   padding: 20px 10px;
   color: white;
   font-size: 16px;
+  background: #89caf5;
 }
 @media (min-width: 800px) {
   nav#topMenu a {
@@ -193,7 +232,7 @@ nav#topMenu a {
 }
 nav#topMenu a:hover,
 nav#topMenu a.isCurrentPage {
-  background: rgba(0, 0, 0, 0.1);
+  background: #71bff3;
 }
 nav#topMenu a.try {
   padding: 10px;
