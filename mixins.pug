@@ -4,7 +4,7 @@ mixin page(title, description)
             meta(charset="UTF-8")
             title=title
             meta(name="description" content=description)
-            link(rel="stylesheet" href="./style.css")
+            link(rel="stylesheet" href="/style.css")
             link(rel='shortcut icon' type='image/png' href='/favicon.png')
             meta(name="viewport" content="width=device-width, initial-scale=1")
             meta(name='twitter:site', content='@CyberLegume')
@@ -26,6 +26,7 @@ mixin page(title, description)
               a(href="/premiere_vente.html") Première vente
               a(href="/fonctions.html") Fonctions avancées
               a(href="/tarif.html") Prix
+              a(href="/blog") Blog
               .grow
               a(target="_blank" href="http://app.cyberlegu.me").try Essayer gratuitement
               label(for="toggleMenu").toggleMenu Menu
@@ -42,4 +43,4 @@ mixin page(title, description)
                   a(href="tel:+336 28 35 01 14") 06 28 35 01 14
                 div La Basse Bouexière n°9,
                   | 35360 ,Médréac, France
-            script(src="./scripts.js")
+            script(src="/scripts.js")

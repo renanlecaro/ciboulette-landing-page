@@ -2,6 +2,9 @@
 @green: #88aa02;
 @lightBlue: #89caf5;
 @lightGrey: #f5f5f5;
+@tablet: 800px;
+@desktop:1100px;
+
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,400&subset=latin-ext');
 body {
@@ -9,16 +12,16 @@ body {
   margin: 0;
   font-weight: 400;
   padding: 0;
-  @media (min-width: 800px) {
+  @media (min-width: @tablet) {
     font-size: 150%;
   }
 }
 
 .slide {
-  &:after{
-    content:"";
+  &:after {
+    content: "";
     height: 70vh;
-    width:1px;
+    width: 1px;
     display: block;
   }
   padding: 1rem;
@@ -34,35 +37,46 @@ body {
     position: relative;
     box-sizing: border-box;
 
-    @media (max-width: 800px) {
-      &.centerOnSmallScreen{
+    @media (max-width: @tablet) {
+      &.centerOnSmallScreen {
         text-align: center;
       }
     }
-    @media (min-width: 800px) {
+
+    @media (min-width: @tablet) {
       padding-left: 52.5%;
     }
+    @media (min-width: @desktop) {
+      padding-left: 500px;
+      max-width: 1100px;
+    }
+
     & > .img {
 
       display: flex;
       align-items: center;
       justify-content: center;
-      @media (min-width: 800px) {
-        width: 47.5%;
+      @media (min-width: @tablet) {
         position: absolute;
         left: 0;
-        top: 0;
-        bottom: 0;
+        width: 47.5%;
+        top: 50%;
+        height: 60vh;
+        transform: translate(0, -50%);
+      }
+      @media (min-width: @desktop) {
+        width: 450px;
+        height: 60vh;
       }
       & > img {
-        width:auto;
+        width: auto;
         height: auto;
-        @media (max-width: 800px) {
+        @media (max-width: @tablet) {
           max-width: 70vw;
           max-height: 50vh;
           margin: 10px;
         }
-        @media (min-width: 800px) {
+        @media (min-width: @tablet) {
           max-width: 30vw;
         }
 
@@ -73,14 +87,14 @@ body {
           max-height: 400px;
         }
       }
-      &.touchLeft{
+      &.touchLeft {
         // The arrow coming from the left graph for ideas
         margin-left: -1rem;
         justify-content: flex-start;
-        &>img{
-          @media(min-width: 800px){
+        & > img {
+          @media (min-width: @tablet) {
             position: absolute;
-            left:-1rem;
+            left: -1rem;
           }
           margin-left: 0;
           max-width: 100%;
@@ -88,16 +102,21 @@ body {
       }
     }
     h1, h2 {
-      font-weight: 100;
-      font-size: 80px;
 
-      @media (max-width: 800px) {
         font-size: 2em;
         font-weight: 400;
         margin: 40px 0 0 0;
         text-align: center;
+
+      @media (min-width: @tablet) {
+        font-size: 40px;
+        font-weight: 100;
+        text-align: left;
       }
-      margin-top: 0;
+      @media (min-width: @desktop) {
+        font-size: 80px;
+      }
+
     }
     p {
       line-height: 1.5;
@@ -244,12 +263,12 @@ ul.check {
 nav#topMenu {
   z-index: 10;
   position: fixed;
-  #toggleMenu{
+  #toggleMenu {
     position: absolute;
-    left:-1000px;
+    left: -@tablet;
     opacity: 0;
   }
-  label.toggleMenu{
+  label.toggleMenu {
     display: none;
     position: absolute;
     bottom: -60px;
@@ -259,36 +278,39 @@ nav#topMenu {
     color: #ffffff;
     margin: 10px;
     text-transform: uppercase;
-   }
+  }
 
-  @media (max-width: 800px) {
+  @media (max-width: @tablet) {
     flex-wrap: wrap;
     flex-direction: column;
-    background:none;
+    background: none;
     a.try {
       align-self: flex-end;
     }
-    #toggleMenu ~a{
+
+    #toggleMenu ~ a {
       display: none;
       z-index: 1;
     }
-    #toggleMenu:checked ~a{
+
+    #toggleMenu:checked ~ a {
       display: block;
     }
-    label.toggleMenu{
+
+    label.toggleMenu {
       display: block;
     }
 
     #toggleMenu:checked ~ .toggleMenu:before {
-      content:"";
-      display:block;
-      position:fixed;
-      background:rgba(0,0,0,0.2);
-      top:0;
-      left:0;
-      right:0;
-      bottom:0;
-      z-index:0;
+      content: "";
+      display: block;
+      position: fixed;
+      background: rgba(0, 0, 0, 0.2);
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 0;
     }
   }
 
@@ -302,14 +324,14 @@ nav#topMenu {
     padding: 20px 10px;
     color: white;
 
-    @media (min-width: 800px) {
+    @media (min-width: @tablet) {
       min-width: 100px;
       text-align: center;
     }
     font-size: 16px;
-    background:@lightBlue;
+    background: @lightBlue;
     &:hover, &.isCurrentPage {
-      background: darken(@lightBlue,5%);
+      background: darken(@lightBlue, 5%);
     }
 
     &.try {
@@ -327,14 +349,14 @@ nav#topMenu {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: @tablet) {
   .slide:first-child {
     padding-top: 68px;
   }
 }
 
 .footer {
-  @media (min-width: 800px) {
+  @media (min-width: @tablet) {
     display: flex;
     font-size: 70%;
   }
@@ -355,3 +377,5 @@ nav#topMenu {
     }
   }
 }
+
+@import "blog.less";

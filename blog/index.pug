@@ -1,0 +1,11 @@
+include ../mixins
++page('Blog Cyberlégume',' Dernières nouveautés dans Cyberlégume')
+  .blog
+    h1: div Blog de Cyberlégume
+    .list
+      each blogItem in entries
+        .blogItem
+          .date=blogItem.date
+          .title=blogItem.title
+          .intro=blogItem.intro
+          a(href="/blog/"+blogItem.date+".html").front: span Voir l'article

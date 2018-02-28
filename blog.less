@@ -1,0 +1,122 @@
+
+.blog {
+  background: #87caf5;
+  padding-top: 55px;
+  a {
+    color: #2387c8;
+    &:visited {
+      color: #7d9cb1;
+    }
+    margin-top: 20px;
+    text-decoration: none;
+    &:hover span {
+      text-decoration: underline;
+    }
+    &.back{
+      display: block;
+      &:before {
+        content: "‹";
+        font-size: 120%;
+        margin-right: 10px;
+      }
+    }
+    &.front{
+      display: block;
+      text-align: right;
+      &:after {
+        text-decoration: none;
+        content: "›";
+
+        margin-left: 7px;
+        font-size: 1.7em;
+        line-height: 1;
+        position: relative;
+        top: 0.1em;
+      }
+    }
+  }
+
+
+
+  h1 {
+    background: #88caf5;
+    color: white;
+    order: 2;
+    font-weight: 100;
+    margin: 0;
+    font-size: 80px;
+    padding: 120px 20px 60px 20px;
+    text-align: center;
+    @media (max-width: 400px){
+      font-size: 40px;
+      padding: 20px;
+    }
+    @media (min-width: 1200px) {
+      position: fixed;
+      padding-left: 55%;
+      text-align: left;
+    }
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .list {
+    position: relative;
+    z-index: 2;
+    background: #f9f9f9;
+
+    @media (max-width: 1200px) {
+      margin: -20px auto;
+      max-width: 1000px;
+    }
+    @media (min-width: 1200px) {
+      margin: 80px 50% 40px 40px;
+    }
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    .blogItem {
+      margin-bottom: 50px;
+      position: relative;
+      .date {
+        opacity: 0.3;
+      }
+      .title {
+        font-weight: bold;
+        font-size: 150%;
+        color: #333;
+        line-height: 2;
+      }
+      .intro {
+        color: #666;
+      }
+    }
+  }
+  .list.blogpost{
+    overflow: hidden;
+    .intro {
+      opacity: 0.5;
+    }
+    img{
+      max-width: 100%;
+      margin: 20px 0;
+      display: block;
+    }
+  }
+
+  & ~ .footer {
+    @media (min-width: 1200px) {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      justify-content: flex-start;
+      z-index: 1;
+      background: #f9f9f9;
+      border-top: none;
+      padding-left: 55%;
+    }
+    padding: 40px;
+  }
+}

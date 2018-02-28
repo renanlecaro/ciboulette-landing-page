@@ -1,0 +1,100 @@
+html
+  head
+    title CL blog edit
+    link(href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css")
+    link(href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.css" rel="stylesheet" type="text/css")
+    link(href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.7.5/css/froala_editor.pkgd.min.css" rel="stylesheet" type="text/css")
+    link(href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.7.5/css/froala_style.min.css" rel="stylesheet" type="text/css")
+    script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js")
+    script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.js")
+    script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/mode/xml/xml.min.js")
+    script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.7.5/js/froala_editor.pkgd.min.js")
+
+    link(rel='shortcut icon' type='image/png' href='/favicon.png')
+  body
+    nav
+      ul
+        each f in pages
+          li: a(href="/"+f.date)=f.title
+
+    script $('a[href="'+window.location.pathname+'"]').css('font-weight','bold')
+    form#editor(action='' method="POST")
+      .hLabel
+        | title
+        input(type="text" value=title name="title")
+      .hLabel
+        | intro
+        input(type="text" value=intro name="intro")
+      div Content
+
+        button(onclick="Scribens.Check('content')") check
+      textarea#content(name="content")!=content
+      script.
+        $('textarea').froalaEditor({
+          imageUploadURL: '/upload_image',
+          imageDefaultAlign: 'left',
+          imageDefaultWidth: ''
+        })
+      div
+        button(type="submit") Save
+        button(type="submit" name="goNext") Save and next
+  style.
+    @import url('https://fonts.googleapis.com/css?family=Roboto:100,400&subset=latin-ext');
+    body {
+      display: flex;
+      align-items: flex-start;
+      justify-content: stretch;
+      min-height: 100vh;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      padding: 20px;
+    }
+
+    nav {
+      width: 250px;
+      flex-grow: 0;
+      flex-shrink: 0;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    nav li a {
+      text-decoration: none;
+      display: block;
+      color: #333;
+      margin-top: 20px;
+      background: #dadada;
+      padding: 10px;
+    }
+
+    form#editor {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      align-self: stretch;
+    }
+
+    form#editor > * {
+      margin: 20px;
+    }
+
+    textarea {
+      flex-grow: 1;
+    }
+    input{
+      margin-left:20px
+    }
+
+    form#editor > .hLabel {
+      display: flex;
+    }
+
+    form#editor > .hLabel > input {
+      flex-grow: 1;
+    }
+
+  script(src="https://www.scribens.com/scribens-integration.js")
+  //script(src="/scribens.js")

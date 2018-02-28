@@ -1,0 +1,7 @@
+include ../mixins
++page(title,description)
+  .blog
+    h1: div=title
+    .list.blogpost
+      .content!=html
+      a(href="/blog").back: span Retourner à la liste des billets
