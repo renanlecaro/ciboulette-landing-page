@@ -25,9 +25,6 @@ html
       .hLabel
         | intro
         input(type="text" value=intro name="intro")
-      div Content
-
-        button(onclick="Scribens.Check('content')") check
       textarea#content(name="content")!=content
       script.
         $('textarea').froalaEditor({
