@@ -33,7 +33,7 @@ html
           imageDefaultWidth: ''
         })
       div
-        button(type="submit") Save
+        button(type="submit")#save Save
         button(type="submit" name="goNext") Save and next
   style.
     @import url('https://fonts.googleapis.com/css?family=Roboto:100,400&subset=latin-ext');
@@ -92,6 +92,13 @@ html
     form#editor > .hLabel > input {
       flex-grow: 1;
     }
-
-  script(src="https://www.scribens.com/scribens-integration.js")
-  //script(src="/scribens.js")
+  script.
+    window.addEventListener("keydown", function (e) {
+      if (e.ctrlKey || e.metaKey) {
+        if(e.key=='s'){
+          e.preventDefault()
+          document.getElementById('save').click()
+          console.log(document.getElementById('save'))
+        }
+      }
+    });

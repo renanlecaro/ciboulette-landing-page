@@ -15,9 +15,6 @@ app.use(bodyParser.urlencoded({ extended: false}));
 app.get('/', function (req, res) {
   res.redirect('/'+new Date().toISOString().slice(0,10))
 })
-app.get('/scribens.js', (req,res)=>{
-  res.sendFile(resolvePath(__dirname+'/scribens2.js'))
-})
 app.get('/favicon.png', (req,res)=>{
   console.log('fav')
   res.sendFile(resolvePath(__dirname+'/../favicon.png'))
