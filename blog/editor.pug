@@ -30,7 +30,8 @@ html
         $('textarea').froalaEditor({
           imageUploadURL: '/upload_image',
           imageDefaultAlign: 'left',
-          imageDefaultWidth: ''
+          imageDefaultWidth: '',
+          shortcutsEnabled: ['bold', 'italic','undo', 'redo']
         })
       div
         button(type="submit")#save Save
