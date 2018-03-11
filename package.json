@@ -1,40 +1,43 @@
 {
-    "name": "cyberlegume-landing-page",
-    "version": "1.0.0",
-    "description": "Landing page for the cyberlegu.me app",
-    "main": "index.html",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/renanlecaro/cyberlegume-landing-page.git"
-    },
-    "author": "Renan LE CARO",
-    "license": "UNLICENSED",
-    "bugs": {
-        "url": "https://github.com/renanlecaro/cyberlegume-landing-page/issues"
-    },
-    "scripts": {
-        "start": "npm-run-parallel generate_pages generate_less serve blog blog_editor",
-        "generate_pages": "pug -O \"{price: '14.90'}\"  *.pug --watch --silent",
-        "generate_less": "autoless .",
-        "serve": "http-server",
-        "blog": "nodemon --exitcrash blog/blogEngine.js",
-        "blog_editor": "nodemon --exitcrash blog/blogEditorServer.js"
-    },
-    "homepage": "https://cyberlegu.me",
-    "devDependencies": {
-        "pug-cli": "*",
-        "http-server": "*"
-    },
-    "dependencies": {
-        "body-parser": "^1.18.2",
-        "busboy": "^0.2.14",
-        "express": "^4.16.2",
-        "forever": "^0.15.3",
-        "html2jade": "^0.8.6",
-        "node-watch": "^0.5.7",
-        "nodemon": "^1.17.0",
-        "npm-run-parallel": "^0.6.0",
-        "pug": "^2.0.0-rc.4",
-        "sha1": "^1.1.1"
-    }
+  "name": "cyberlegume-landing-page",
+  "version": "1.0.0",
+  "description": "Landing page for the cyberlegu.me app",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renanlecaro/cyberlegume-landing-page.git"
+  },
+  "author": "Renan LE CARO",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/renanlecaro/cyberlegume-landing-page/issues"
+  },
+  "scripts": {
+    "start": "npm-run-parallel generate_pages generate_less serve blog blog_editor",
+    "generate_pages": "pug -O \"{price: '14.90'}\"  *.pug --watch --silent",
+    "generate_less": "autoless styles",
+    "serve": "http-server",
+    "blog": "nodemon --exitcrash blog/blogEngine.js",
+    "blog_editor": "nodemon --exitcrash blog/blogEditorServer.js"
+  },
+  "homepage": "https://cyberlegu.me",
+  "devDependencies": {
+    "pug-cli": "*",
+    "http-server": "*"
+  },
+  "dependencies": {
+    "autoless": "^0.1.7",
+    "body-parser": "^1.18.2",
+    "busboy": "^0.2.14",
+    "express": "^4.16.2",
+    "forever": "^0.15.3",
+    "html2jade": "^0.8.6",
+    "http-server": "^0.11.1",
+    "node-watch": "^0.5.7",
+    "nodemon": "^1.17.0",
+    "npm-run-parallel": "^0.6.0",
+    "pug": "^2.0.1",
+    "pug-cli": "^1.0.0-alpha6",
+    "sha1": "^1.1.1"
+  }
 }
