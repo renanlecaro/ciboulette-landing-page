@@ -387,13 +387,22 @@ nav#topMenu .grow {
   font-weight: bold;
   font-size: 150%;
   color: #333;
-  line-height: 2;
+  line-height: 1.1;
+  margin-bottom: 0.5em;
 }
 .blog .list .blogItem .intro {
   color: #666;
 }
 .blog .list.blogpost {
   overflow: hidden;
+}
+.blog .list.blogpost h2 {
+  font-weight: bold;
+  font-size: 150%;
+  color: #333;
+  line-height: 1.1;
+  margin-bottom: 0.6em;
+  margin-top: 0;
 }
 .blog .list.blogpost .intro {
   opacity: 0.5;
