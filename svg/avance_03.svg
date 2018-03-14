@@ -25,15 +25,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-511.07134"
-     inkscape:cy="-11.120805"
+     inkscape:zoom="3.959798"
+     inkscape:cx="121.77807"
+     inkscape:cy="8.267772"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g9186"
      showgrid="false"
      inkscape:window-width="1855"
      inkscape:window-height="1056"
-     inkscape:window-x="1431"
+     inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
      fit-margin-top="0"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -86,10 +86,10 @@
            id="tspan9180"
            sodipodi:role="line">Bonjour Jean DUPONT,</tspan><tspan
            style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:16.90381622px;font-family:roboto;-inkscape-font-specification:'roboto Heavy';fill:#404040"
-           id="tspan9182"
            y="2011.2344"
            x="-995.67621"
-           sodipodi:role="line">N'oubliez pas que vous avec RDV </tspan><tspan
+           sodipodi:role="line"
+           id="tspan3340">N'oubliez pas que vous avez RDV </tspan><tspan
            id="tspan9184"
            style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:16.90381622px;font-family:roboto;-inkscape-font-specification:'roboto Heavy';fill:#404040"
            y="2032.3641"
