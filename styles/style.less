@@ -130,7 +130,7 @@ body {
   color: white;
 }
 
-.slide:nth-child(2n), .footer {
+.slide:nth-child(2n) {
   background-color: @lightGrey;
   background: radial-gradient(@lightGrey, darken(@lightGrey, 10%));
   color: #333;
@@ -356,10 +356,10 @@ nav#topMenu {
 }
 
 .footer {
-  @media (min-width: @tablet) {
-    display: flex;
-    font-size: 70%;
-  }
+  padding:2em 0;
+  display: flex;
+  font-size: 12px;
+  flex-wrap: wrap;
   border-top: 1px solid #dadada;
   margin: 0;
   align-items: center;
@@ -367,13 +367,10 @@ nav#topMenu {
   line-height: 1.5;
   order: 2;
   .part {
-    padding: 2em;
+    padding: 0.5em;
     a {
       margin: 0 5px;
-      color: #0062a3;
-    }
-    .dim {
-      opacity: 0.5;
+      color: inherit;
     }
   }
 }
