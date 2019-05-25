@@ -282,6 +282,7 @@ nav#topMenu .grow {
   order: 2;
 }
 .footer .part {
+  white-space: nowrap;
   padding: 0.5em;
 }
 .footer .part a {
