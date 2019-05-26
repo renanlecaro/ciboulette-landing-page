@@ -2,15 +2,44 @@ const fs=require('fs')
 const pug = require('pug');
 const base='./blog'
 var watch = require('node-watch');
+var RSS = require('rss');
 
 
-function renderBlogIndex() {
+function renderBlogIndex( ) {
   console.log('rendering blog index')
   const entries=getBlogPostsPaths().map(getPostData)
 
   fs.writeFileSync(base+'/index.html', pug.renderFile(base+'/index.pug', {
     entries
   }))
+  renderRSSFeed(entries)
+}
+
+function renderRSSFeed(entries) {
+
+  var feed = new RSS({
+    title:'Blog cyberlégume',
+    description:'Nouveautés dans cyberlégume et informations annexes sur le  projet',
+    feed_url:'https://cyberlegu.me/blog/rss',
+    site_url:'https://cyberlegu.me/',
+    image_url:'https://cyberlegu.me/img/cyberlogo.png',
+    webMaster:'renan.lecaro@ŋmail.com',
+    language:'fr-fr',
+    copyright:'All rights reserved',
+    pubDate: new Date(),
+    ttl:300
+  });
+  entries.forEach(({title, intro, date, content})=>{
+    feed.item({
+      title,
+      description:intro,
+      url: 'https://cyberlegu.me/blog/'+date,
+      guid:date,
+      date:new Date(date)
+    })
+  })
+  const xml=feed.xml({indent: true})
+  fs.writeFileSync(base+'/rss', xml)
 }
 
 function getBlogPostsPaths() {
@@ -24,10 +53,8 @@ function getBlogPostsPaths() {
 watch(base, { recursive: false}, function(evt, name) {
   if(name.match(/.pug$/)){
     if(name.match('20')){
-    console.log(name+' changed, rerendering post')
       rerenderPost(name)
     }
-    console.log(name+' changed, rerendering list')
     renderBlogIndex()
   }
   if(name.match(/item\.pug/)){
@@ -47,7 +74,6 @@ function getPostData(path) {
 }
 
 function rerenderPost(file) {
-  console.info('rendering '+file)
   let {title, date,intro, content}=getPostData(file);
   fs.writeFileSync(base+'/'+date+'.html',
     pug.renderFile(base+'/item.pug', {
