@@ -1,3 +1,11 @@
+mixin newsLetter()
+ form#mc-embedded-subscribe-form.validate(action='https://gmail.us20.list-manage.com/subscribe/post?u=41e9e165060bfc2b465c44f6a&id=607e36af07', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='')
+    
+          input#email(type='email',   name='EMAIL' placeholder="Votre email pour la Newsletter" required)
+          div(style='position: absolute; left: -5000px;', aria-hidden='true')
+            input(type='text', name='b_41e9e165060bfc2b465c44f6a_607e36af07', tabindex='-1', value='')
+          input#send.button(type='submit', value="Recevoir les news", name='subscribe')
+
 mixin page(title, description)
     html
         head
@@ -45,6 +53,5 @@ mixin page(title, description)
               .part            
                 | Ce site n'utilise pas de cookies marketing
                 a(href="/cgu.html") CGU
-                
-              
+              +newsLetter()              
             script(src="/scripts.js")
