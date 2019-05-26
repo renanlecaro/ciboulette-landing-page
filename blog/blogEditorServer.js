@@ -95,3 +95,4 @@ function save(req,res,redirect){
 }
 
 app.listen(7000);
+console.log('Blog edito on http://localhost:7000 ')
