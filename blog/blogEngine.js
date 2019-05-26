@@ -20,7 +20,7 @@ function renderRSSFeed(entries) {
   var feed = new RSS({
     title:'Blog cyberlégume',
     description:'Nouveautés dans cyberlégume et informations annexes sur le  projet',
-    feed_url:'https://cyberlegu.me/blog/rss',
+    feed_url:'https://cyberlegu.me/blog/rss.xml',
     site_url:'https://cyberlegu.me/',
     image_url:'https://cyberlegu.me/img/cyberlogo.png',
     webMaster:'renan.lecaro@ŋmail.com',
@@ -39,7 +39,7 @@ function renderRSSFeed(entries) {
     })
   })
   const xml=feed.xml({indent: true})
-  fs.writeFileSync(base+'/rss', xml)
+  fs.writeFileSync(base+'/rss.xml', xml)
 }
 
 function getBlogPostsPaths() {
