@@ -300,15 +300,6 @@ nav#topMenu .grow {
   padding: 1em;
   border-radius: 0.5em;
 }
-@media (min-width: 900px) {
-  .footer form {
-    position: absolute;
-    left: 75%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 400px;
-  }
-}
 .footer form #email {
   height: 3em;
   line-height: 3em;

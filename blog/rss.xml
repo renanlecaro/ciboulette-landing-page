@@ -9,13 +9,20 @@
             <link>https://cyberlegu.me/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 26 May 2019 20:14:27 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 04 Jan 2020 15:39:02 GMT</lastBuildDate>
         <atom:link href="https://cyberlegu.me/blog/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 26 May 2019 20:14:27 GMT</pubDate>
+        <pubDate>Sat, 04 Jan 2020 15:39:02 GMT</pubDate>
         <copyright><![CDATA[All rights reserved]]></copyright>
         <language><![CDATA[fr-fr]]></language>
         <webMaster><![CDATA[renan.lecaro@ŋmail.com]]></webMaster>
         <ttl>300</ttl>
+        <item>
+            <title><![CDATA[Cyberlégume se réveil en 2020]]></title>
+            <description><![CDATA[Dévelopement à plein temps pour les 2 prochains mois.]]></description>
+            <link>https://cyberlegu.me/blog/2020-01-04</link>
+            <guid isPermaLink="false">2020-01-04</guid>
+            <pubDate>Sat, 04 Jan 2020 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Envoyez les emails depuis votre propre compte gmail ]]></title>
             <description><![CDATA[Enfin une solution contre les mails qui arrivent en spam]]></description>
