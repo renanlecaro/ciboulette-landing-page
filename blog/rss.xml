@@ -9,13 +9,20 @@
             <link>https://cyberlegu.me/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 22 Jan 2020 16:26:14 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Jan 2020 18:40:49 GMT</lastBuildDate>
         <atom:link href="https://cyberlegu.me/blog/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 22 Jan 2020 16:26:14 GMT</pubDate>
+        <pubDate>Wed, 22 Jan 2020 18:40:49 GMT</pubDate>
         <copyright><![CDATA[All rights reserved]]></copyright>
         <language><![CDATA[fr-fr]]></language>
         <webMaster><![CDATA[renan.lecaro@ŋmail.com]]></webMaster>
         <ttl>300</ttl>
+        <item>
+            <title><![CDATA[Cyberlégume devient ciboulette.net]]></title>
+            <description><![CDATA[En partie pour simplifier la communication du nom, et aussi pour faire "table rase" vis à vis des filtres anti spam]]></description>
+            <link>https://cyberlegu.me/blog/2020-01-24</link>
+            <guid isPermaLink="false">2020-01-24</guid>
+            <pubDate>Fri, 24 Jan 2020 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Exportez vos données en xlsx]]></title>
             <description><![CDATA[Exportez les quantités de produits vendus et totaux de commandes par semaine]]></description>
