@@ -9,13 +9,20 @@
             <link>https://cyberlegu.me/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 22 Jan 2020 11:08:22 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Jan 2020 16:26:14 GMT</lastBuildDate>
         <atom:link href="https://cyberlegu.me/blog/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 22 Jan 2020 11:08:22 GMT</pubDate>
+        <pubDate>Wed, 22 Jan 2020 16:26:14 GMT</pubDate>
         <copyright><![CDATA[All rights reserved]]></copyright>
         <language><![CDATA[fr-fr]]></language>
         <webMaster><![CDATA[renan.lecaro@ŋmail.com]]></webMaster>
         <ttl>300</ttl>
+        <item>
+            <title><![CDATA[Exportez vos données en xlsx]]></title>
+            <description><![CDATA[Exportez les quantités de produits vendus et totaux de commandes par semaine]]></description>
+            <link>https://cyberlegu.me/blog/2020-01-23</link>
+            <guid isPermaLink="false">2020-01-23</guid>
+            <pubDate>Thu, 23 Jan 2020 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Nouveau téléphone pour l'envoi de SMS cyberlégume]]></title>
             <description><![CDATA[Ne soyez pas surpris si le numéro qui vous envoie les notifications change de temps en temps]]></description>
