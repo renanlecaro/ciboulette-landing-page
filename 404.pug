@@ -1,0 +1,12 @@
+html.errorPage
+  head 
+    meta(name="robots" content="noindex")
+    link(rel="stylesheet" href="/styles/style.css")
+    title Page non trouvée
+  body 
+
+    .slide(style="background:none; color: #333;"): .wrapper
+        h2 Page inconnue
+        .img: img(src="/img/homemade_svg/error_picture.svg.png") 
+        p La page que vous essayez d'ouvrir n'est pas ou plus présente
+        a.button.green(href="/") Revenir à la page d'accueil 
