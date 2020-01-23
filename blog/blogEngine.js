@@ -20,9 +20,9 @@ function renderRSSFeed(entries) {
   var feed = new RSS({
     title:'Blog cyberlégume',
     description:'Nouveautés dans cyberlégume et informations annexes sur le  projet',
-    feed_url:'https://cyberlegu.me/blog/rss.xml',
-    site_url:'https://cyberlegu.me/',
-    image_url:'https://cyberlegu.me/img/cyberlogo.png',
+    feed_url:'https://ciboulette.net/blog/rss.xml',
+    site_url:'https://ciboulette.net/',
+    image_url:'https://ciboulette.net/img/cyberlogo.png',
     webMaster:'renan.lecaro@ŋmail.com',
     language:'fr-fr',
     copyright:'All rights reserved',
@@ -33,7 +33,7 @@ function renderRSSFeed(entries) {
     feed.item({
       title,
       description:intro,
-      url: 'https://cyberlegu.me/blog/'+date,
+      url: 'https://ciboulette.net/blog/'+date,
       guid:date,
       date:new Date(date)
     })

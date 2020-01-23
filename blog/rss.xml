@@ -2,16 +2,16 @@
     <channel>
         <title><![CDATA[Blog cyberlégume]]></title>
         <description><![CDATA[Nouveautés dans cyberlégume et informations annexes sur le  projet]]></description>
-        <link>https://cyberlegu.me/</link>
+        <link>https://ciboulette.net/</link>
         <image>
-            <url>https://cyberlegu.me/img/cyberlogo.png</url>
+            <url>https://ciboulette.net/img/cyberlogo.png</url>
             <title>Blog cyberlégume</title>
-            <link>https://cyberlegu.me/</link>
+            <link>https://ciboulette.net/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 23 Jan 2020 11:37:36 GMT</lastBuildDate>
-        <atom:link href="https://cyberlegu.me/blog/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 23 Jan 2020 11:37:36 GMT</pubDate>
+        <lastBuildDate>Thu, 23 Jan 2020 11:52:30 GMT</lastBuildDate>
+        <atom:link href="https://ciboulette.net/blog/rss.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Thu, 23 Jan 2020 11:52:30 GMT</pubDate>
         <copyright><![CDATA[All rights reserved]]></copyright>
         <language><![CDATA[fr-fr]]></language>
         <webMaster><![CDATA[renan.lecaro@ŋmail.com]]></webMaster>
@@ -19,294 +19,294 @@
         <item>
             <title><![CDATA[Cyberlégume devient ciboulette.net]]></title>
             <description><![CDATA[En partie pour simplifier la communication du nom, et aussi pour faire "table rase" vis à vis des filtres anti spam]]></description>
-            <link>https://cyberlegu.me/blog/2020-01-24</link>
+            <link>https://ciboulette.net/blog/2020-01-24</link>
             <guid isPermaLink="false">2020-01-24</guid>
             <pubDate>Fri, 24 Jan 2020 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Exportez vos données en xlsx]]></title>
             <description><![CDATA[Exportez les quantités de produits vendus et totaux de commandes par semaine]]></description>
-            <link>https://cyberlegu.me/blog/2020-01-23</link>
+            <link>https://ciboulette.net/blog/2020-01-23</link>
             <guid isPermaLink="false">2020-01-23</guid>
             <pubDate>Thu, 23 Jan 2020 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Nouveau téléphone pour l'envoi de SMS cyberlégume]]></title>
             <description><![CDATA[Ne soyez pas surpris si le numéro qui vous envoie les notifications change de temps en temps]]></description>
-            <link>https://cyberlegu.me/blog/2020-01-22</link>
+            <link>https://ciboulette.net/blog/2020-01-22</link>
             <guid isPermaLink="false">2020-01-22</guid>
             <pubDate>Wed, 22 Jan 2020 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Nouveau design pour la page destinataires]]></title>
             <description><![CDATA[Je compte utiliser plus souvent des tableaux dans l'application maintenant]]></description>
-            <link>https://cyberlegu.me/blog/2020-01-21</link>
+            <link>https://ciboulette.net/blog/2020-01-21</link>
             <guid isPermaLink="false">2020-01-21</guid>
             <pubDate>Tue, 21 Jan 2020 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Notification de commentaire pour les clients sans numéro de téléphone]]></title>
             <description><![CDATA[Il était temps que ce soit mis en place]]></description>
-            <link>https://cyberlegu.me/blog/2020-01-20</link>
+            <link>https://ciboulette.net/blog/2020-01-20</link>
             <guid isPermaLink="false">2020-01-20</guid>
             <pubDate>Mon, 20 Jan 2020 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Video : connecter votre compte gmail à cyberlégume]]></title>
             <description><![CDATA[Une explication détaillée d'un aspect de cyberlégume]]></description>
-            <link>https://cyberlegu.me/blog/2020-01-19</link>
+            <link>https://ciboulette.net/blog/2020-01-19</link>
             <guid isPermaLink="false">2020-01-19</guid>
             <pubDate>Sun, 19 Jan 2020 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Dé-dupliquer les clients]]></title>
             <description><![CDATA[Un bug étrange créé des doublons de clients]]></description>
-            <link>https://cyberlegu.me/blog/2020-01-18</link>
+            <link>https://ciboulette.net/blog/2020-01-18</link>
             <guid isPermaLink="false">2020-01-18</guid>
             <pubDate>Sat, 18 Jan 2020 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Email de confirmation d'inscription pour les clients]]></title>
             <description><![CDATA[Pour limiter les spams, les clients doivent mainteant confirmer qu'ils sont intéressés]]></description>
-            <link>https://cyberlegu.me/blog/2020-01-17</link>
+            <link>https://ciboulette.net/blog/2020-01-17</link>
             <guid isPermaLink="false">2020-01-17</guid>
             <pubDate>Fri, 17 Jan 2020 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Réparation de l'upload d'images]]></title>
             <description><![CDATA[L'ajout d'images personnelles pour les produits et dans les textes devrait fonctionner de nouveau]]></description>
-            <link>https://cyberlegu.me/blog/2020-01-16</link>
+            <link>https://ciboulette.net/blog/2020-01-16</link>
             <guid isPermaLink="false">2020-01-16</guid>
             <pubDate>Thu, 16 Jan 2020 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[SMS de rappel vers toute l'Europe]]></title>
             <description><![CDATA[Les clients avec des numéros de tel mobile en europe pourrons maitenant reçevoir des sms du système]]></description>
-            <link>https://cyberlegu.me/blog/2020-01-15</link>
+            <link>https://ciboulette.net/blog/2020-01-15</link>
             <guid isPermaLink="false">2020-01-15</guid>
             <pubDate>Wed, 15 Jan 2020 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Publication de la roadmap]]></title>
             <description><![CDATA[Un tableau trello public pour suivre la progression du développement de cyberlégume]]></description>
-            <link>https://cyberlegu.me/blog/2020-01-06</link>
+            <link>https://ciboulette.net/blog/2020-01-06</link>
             <guid isPermaLink="false">2020-01-06</guid>
             <pubDate>Mon, 06 Jan 2020 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Cyberlégume se réveil en 2020]]></title>
             <description><![CDATA[Dévelopement à plein temps pour les 2 prochains mois.]]></description>
-            <link>https://cyberlegu.me/blog/2020-01-04</link>
+            <link>https://ciboulette.net/blog/2020-01-04</link>
             <guid isPermaLink="false">2020-01-04</guid>
             <pubDate>Sat, 04 Jan 2020 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Envoyez les emails depuis votre propre compte gmail ]]></title>
             <description><![CDATA[Enfin une solution contre les mails qui arrivent en spam]]></description>
-            <link>https://cyberlegu.me/blog/2019-05-26</link>
+            <link>https://ciboulette.net/blog/2019-05-26</link>
             <guid isPermaLink="false">2019-05-26</guid>
             <pubDate>Sun, 26 May 2019 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Conditions générales d'utilisation]]></title>
             <description><![CDATA[Il était temps de les mettre en place]]></description>
-            <link>https://cyberlegu.me/blog/2019-05-25</link>
+            <link>https://ciboulette.net/blog/2019-05-25</link>
             <guid isPermaLink="false">2019-05-25</guid>
             <pubDate>Sat, 25 May 2019 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Update geek : l'envoi de SMS professionnel est hors de prix.]]></title>
             <description><![CDATA[Ou comment je bricole un solution pour éviter de vous facturer 10ct  chaque SMS de rappel]]></description>
-            <link>https://cyberlegu.me/blog/2019-05-24</link>
+            <link>https://ciboulette.net/blog/2019-05-24</link>
             <guid isPermaLink="false">2019-05-24</guid>
             <pubDate>Fri, 24 May 2019 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Update geek : Les aventures des miniatures produit et du pricing google image]]></title>
             <description><![CDATA[Une petite mise a jour sur l'amélioration du système d'images de Cyberlégume pour réduire les coûts de fonctionnement]]></description>
-            <link>https://cyberlegu.me/blog/2019-05-23</link>
+            <link>https://ciboulette.net/blog/2019-05-23</link>
             <guid isPermaLink="false">2019-05-23</guid>
             <pubDate>Thu, 23 May 2019 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Prévisualisation du SMS de rappel]]></title>
             <description><![CDATA[Vous pouvez maintenant voir ce que votre message va donner et si la syntaxe est correcte.]]></description>
-            <link>https://cyberlegu.me/blog/2018-12-30</link>
+            <link>https://ciboulette.net/blog/2018-12-30</link>
             <guid isPermaLink="false">2018-12-30</guid>
             <pubDate>Sun, 30 Dec 2018 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Personnalisation du SMS de rappel ]]></title>
             <description><![CDATA[Changez le contenu du sms de rappel et le moment ou il est envoyé]]></description>
-            <link>https://cyberlegu.me/blog/2018-12-29</link>
+            <link>https://ciboulette.net/blog/2018-12-29</link>
             <guid isPermaLink="false">2018-12-29</guid>
             <pubDate>Sat, 29 Dec 2018 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Rendez vous par défaut optionnel]]></title>
             <description><![CDATA[Vous pouvez maintenant désactiver la présélection du rendez vous pour les clients réguliers]]></description>
-            <link>https://cyberlegu.me/blog/2018-12-22</link>
+            <link>https://ciboulette.net/blog/2018-12-22</link>
             <guid isPermaLink="false">2018-12-22</guid>
             <pubDate>Sat, 22 Dec 2018 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Date de règlement, pied de page général]]></title>
             <description><![CDATA[Sur demande des jardins de la Petite Lande]]></description>
-            <link>https://cyberlegu.me/blog/2018-06-10</link>
+            <link>https://ciboulette.net/blog/2018-06-10</link>
             <guid isPermaLink="false">2018-06-10</guid>
             <pubDate>Sun, 10 Jun 2018 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Imprimer les tickets de caisse sous firefox]]></title>
             <description><![CDATA[L'impression des tickets de caisse se passe relativement bien sous chrome, mais semble bugger un peu sous firefox.]]></description>
-            <link>https://cyberlegu.me/blog/2018-05-29</link>
+            <link>https://ciboulette.net/blog/2018-05-29</link>
             <guid isPermaLink="false">2018-05-29</guid>
             <pubDate>Tue, 29 May 2018 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Pause du projet site web, minimum de commande par RDV]]></title>
             <description><![CDATA[Le projet de création de site web est un poil embitieux, je vais travailler dessus dans la période creuse des ventes. Pour l'instant, je  me concentre sur les fonctions nécessaires pour les nouveaux clients de l'année]]></description>
-            <link>https://cyberlegu.me/blog/2018-04-15</link>
+            <link>https://ciboulette.net/blog/2018-04-15</link>
             <guid isPermaLink="false">2018-04-15</guid>
             <pubDate>Sun, 15 Apr 2018 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Le créateur de site web avance]]></title>
             <description><![CDATA[Pas de nouvelle fonctions pour l'instant, mais on progresse]]></description>
-            <link>https://cyberlegu.me/blog/2018-03-11</link>
+            <link>https://ciboulette.net/blog/2018-03-11</link>
             <guid isPermaLink="false">2018-03-11</guid>
             <pubDate>Sun, 11 Mar 2018 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Editeur visuel]]></title>
             <description><![CDATA[Nouvel editeur de texte]]></description>
-            <link>https://cyberlegu.me/blog/2018-03-05</link>
+            <link>https://ciboulette.net/blog/2018-03-05</link>
             <guid isPermaLink="false">2018-03-05</guid>
             <pubDate>Mon, 05 Mar 2018 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Projet : sites web de maraichers]]></title>
             <description><![CDATA[Une suggestion d'un nouveau client potentiel]]></description>
-            <link>https://cyberlegu.me/blog/2018-03-03</link>
+            <link>https://ciboulette.net/blog/2018-03-03</link>
             <guid isPermaLink="false">2018-03-03</guid>
             <pubDate>Sat, 03 Mar 2018 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Lancement du blog Cyberlégume]]></title>
             <description><![CDATA[Toutes les news et évolutions de cyber au même endroit]]></description>
-            <link>https://cyberlegu.me/blog/2018-02-28</link>
+            <link>https://ciboulette.net/blog/2018-02-28</link>
             <guid isPermaLink="false">2018-02-28</guid>
             <pubDate>Wed, 28 Feb 2018 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Nouveau site web cyberlégume]]></title>
             <description><![CDATA[Un nouveau site web tout neuf pour présenter cyberlégume]]></description>
-            <link>https://cyberlegu.me/blog/2018-02-27</link>
+            <link>https://ciboulette.net/blog/2018-02-27</link>
             <guid isPermaLink="false">2018-02-27</guid>
             <pubDate>Tue, 27 Feb 2018 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Quantité min et max par personne]]></title>
             <description><![CDATA[Quelques nouveautés dans Cyberlégume]]></description>
-            <link>https://cyberlegu.me/blog/2018-02-26</link>
+            <link>https://ciboulette.net/blog/2018-02-26</link>
             <guid isPermaLink="false">2018-02-26</guid>
             <pubDate>Mon, 26 Feb 2018 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Nouveau client, nouvelles fonctions]]></title>
             <description><![CDATA[David (33) nous rejoins et demande quelques nouvelles fonctions]]></description>
-            <link>https://cyberlegu.me/blog/2018-02-10</link>
+            <link>https://ciboulette.net/blog/2018-02-10</link>
             <guid isPermaLink="false">2018-02-10</guid>
             <pubDate>Sat, 10 Feb 2018 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Page de commentaires]]></title>
             <description><![CDATA[Nouvelle fonction : liste de tout les commentaires de la semaine]]></description>
-            <link>https://cyberlegu.me/blog/2017-12-05</link>
+            <link>https://ciboulette.net/blog/2017-12-05</link>
             <guid isPermaLink="false">2017-12-05</guid>
             <pubDate>Tue, 05 Dec 2017 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Tableau de bord]]></title>
             <description><![CDATA[Une moyen simple de suivre vos différentes commandes]]></description>
-            <link>https://cyberlegu.me/blog/2017-08-15</link>
+            <link>https://ciboulette.net/blog/2017-08-15</link>
             <guid isPermaLink="false">2017-08-15</guid>
             <pubDate>Tue, 15 Aug 2017 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Tickets de caisse & referral]]></title>
             <description><![CDATA[La page de ticket de caisse est maintenant séparée de la page facture]]></description>
-            <link>https://cyberlegu.me/blog/2017-07-09</link>
+            <link>https://ciboulette.net/blog/2017-07-09</link>
             <guid isPermaLink="false">2017-07-09</guid>
             <pubDate>Sun, 09 Jul 2017 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Bugfix]]></title>
             <description><![CDATA[Résolution de bug]]></description>
-            <link>https://cyberlegu.me/blog/2017-06-16</link>
+            <link>https://ciboulette.net/blog/2017-06-16</link>
             <guid isPermaLink="false">2017-06-16</guid>
             <pubDate>Fri, 16 Jun 2017 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Nouveau formulaire client]]></title>
             <description><![CDATA[Pleins de nouveautés cette semaine]]></description>
-            <link>https://cyberlegu.me/blog/2017-06-11</link>
+            <link>https://ciboulette.net/blog/2017-06-11</link>
             <guid isPermaLink="false">2017-06-11</guid>
             <pubDate>Sun, 11 Jun 2017 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[SMS plus fiable, https]]></title>
             <description><![CDATA[Nouveautés et quelques questions]]></description>
-            <link>https://cyberlegu.me/blog/2017-02-18</link>
+            <link>https://ciboulette.net/blog/2017-02-18</link>
             <guid isPermaLink="false">2017-02-18</guid>
             <pubDate>Sat, 18 Feb 2017 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Retours sur le plantage de cyber ]]></title>
             <description><![CDATA[Et petits détails]]></description>
-            <link>https://cyberlegu.me/blog/2017-02-09</link>
+            <link>https://ciboulette.net/blog/2017-02-09</link>
             <guid isPermaLink="false">2017-02-09</guid>
             <pubDate>Thu, 09 Feb 2017 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Modifier les mouvements]]></title>
             <description><![CDATA[Modifier les compte clients, qte mini d'un produit]]></description>
-            <link>https://cyberlegu.me/blog/2017-01-18</link>
+            <link>https://ciboulette.net/blog/2017-01-18</link>
             <guid isPermaLink="false">2017-01-18</guid>
             <pubDate>Wed, 18 Jan 2017 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Compatibilité firefox]]></title>
             <description><![CDATA[Je me suis rendu compte que tout le monde n'était pas sous google chrome ^^ ]]></description>
-            <link>https://cyberlegu.me/blog/2016-10-19</link>
+            <link>https://ciboulette.net/blog/2016-10-19</link>
             <guid isPermaLink="false">2016-10-19</guid>
             <pubDate>Wed, 19 Oct 2016 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Pied de page editable, gestion des consignes..]]></title>
             <description><![CDATA[Quelques corrections sur Cyberlégume]]></description>
-            <link>https://cyberlegu.me/blog/2016-03-22</link>
+            <link>https://ciboulette.net/blog/2016-03-22</link>
             <guid isPermaLink="false">2016-03-22</guid>
             <pubDate>Tue, 22 Mar 2016 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Onglet comptabilité]]></title>
             <description><![CDATA[Un gros tableau pour tout contrôler ]]></description>
-            <link>https://cyberlegu.me/blog/2016-03-08</link>
+            <link>https://ciboulette.net/blog/2016-03-08</link>
             <guid isPermaLink="false">2016-03-08</guid>
             <pubDate>Tue, 08 Mar 2016 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Quand envoyer les emails ?]]></title>
             <description><![CDATA[Une analyse rapide des logs me dit qu'il faudrait envoyer les mails à 11h ou 20h pour arriver en haut de liste]]></description>
-            <link>https://cyberlegu.me/blog/2016-03-02</link>
+            <link>https://ciboulette.net/blog/2016-03-02</link>
             <guid isPermaLink="false">2016-03-02</guid>
             <pubDate>Wed, 02 Mar 2016 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Stock, sms de rappel]]></title>
             <description><![CDATA[Yay, de nouvelles fonctions ! ]]></description>
-            <link>https://cyberlegu.me/blog/2016-02-26</link>
+            <link>https://ciboulette.net/blog/2016-02-26</link>
             <guid isPermaLink="false">2016-02-26</guid>
             <pubDate>Fri, 26 Feb 2016 00:00:00 GMT</pubDate>
         </item>
