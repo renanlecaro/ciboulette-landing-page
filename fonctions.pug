@@ -1,78 +1,51 @@
 include mixins
 +page("Fonctions avancées","ciboulette.net vous propose pas mal de petites fonctions et détails aquéris avec les temps")
-    .slide: .wrapper
-        h2 Fonctions avancées
-        .img: img(src!='./svg/full.min.svg').upScale
-        p Plus de détails sur les petits plus de ciboulette.net.
-    .slide: .wrapper
-        h2 Panier prédéfinis
-        .img: img(src="./svg/avance_08.min.svg").upScale
-        p  Proposez un panier pré-rempli en plus des légumes commandables individuellement.
-        p Vos clients pressés pourront les commander en un clic, directement depuis le mail d'invitation à commander.
-    .slide: .wrapper
-        h2 SMS de rappel de RDV
-        .img: img(src="./svg/avance_03.min.svg").upScale
-        p  2h avant un rendez-vous, tous les clients reçoivent un sms de rappel
-    .slide: .wrapper
-        h2 Compte client
-        .img: img(src="./svg/avance_07.min.svg").upScale
-        p Gérez les avoirs et les avances. Listez les clients dans le négatif en quelques clics.
-    .slide: .wrapper
-        h2 Stocks
-        .img: img(src="./svg/avance_06.min.svg").upScale
+  .fonctions_grid 
+    .fonction
+        h3 Panier prédéfinis
+        p  Proposez un panier prédéfini en plus des légumes au détail.
+    .fonction
+        h3 SMS de rappel de RDV
+        p  2h avant un rendez-vous, les clients reçoivent un sms de rappel
+    .fonction
+        h3 Compte client
+        p Gérez les avoirs et les avances. Listez les clients dans le négatif.
+    .fonction
+        h3 Stocks
         p  Indiquez une quantité max commandable totale pour la semaine
-        p  Ces stocks peuvent être reportés automatiquement à la semaine suivante et modifiés à tout moment.
-    .slide: .wrapper
-        h2 Produits d'appel
-        .img: img(src="./svg/avance_13.min.svg").upScale
+    .fonction
+        h3 Produits d'appel
         p  Limitez la quantité par personne par semaine pour les produits d'appel.
-    .slide: .wrapper
-        h2 Email de rappel de commande
-        .img: img(src="./svg/avance_01.min.svg").upScale
-        p Si un client qui commande régulièrement tarde à commander, un petit email de rappel lui sera envoyé
-    .slide: .wrapper
-        h2 Email de confirmations
-        .img: img(src="./svg/avance_02.min.svg").upScale
-        p  Après commande ou correction, un email est envoyé au client pour lui confirmer l'action
-
-    .slide: .wrapper
-        h2 Factures
-        .img: img(src="./svg/avance_04.min.svg").upScale
-        p  Imprimez ou rendez disponible en ligne les factures de chaque commande
-    .slide: .wrapper
-        h2 Ticket de caisses
-        .img: img(src="./svg/avance_05.min.svg").upScale
+    .fonction
+        h3 Email de rappel
+        p Seconde invitation optionnelle pour les clients distraits
+    .fonction
+        h3 Email de confirmations
+        p  Après commande ou correction, un email est envoyé au client 
+    .fonction
+        h3 Factures
+        p  Editez une ou deux facture par A4, avec ou sans TVA
+    .fonction
+        h3 Ticket de caisses
         p  Imprimez jusqu'a 20 tickets de caisse par A4 et massicotez-les
-
-    .slide: .wrapper
-        h2 Points de rendez-vous multiples
-        .img: img(src="./svg/multi_dp.min.svg").upScale
-        p Un client peut avoir le choix entre plusieurs rendez-vous, ou vous pouvez restreindre les rendez-vous de vos clients.
-
-    .slide: .wrapper
-        h2 Produits on/off
-
-        .img: img(src="./svg/produit_on_off.min.svg").upScale
-        p Désactivez temporairement des produits pour les réactiver quand ils sont de nouveau disponibles. Fonctionne aussi pour les RDVs
-
-    .slide: .wrapper
-        h2 Discussions
-        .img: img(src="./svg/order_comments.min.svg").upScale
-        p Le client peut laisser un commentaire sur sa commande (question, empechêment...). Vous pouvez lui répondre de la même manière. Vous êtes alerté par SMS quand il y a un commentaire, ce qui vous permet d'être réactif.
-
-    .slide: .wrapper
-        h2 Brouillons de commande
-        .img: img(src="./svg/avance_09.min.svg").upScale
-        p  Quand un client modifie sa commande, un brouillon est sauvegardé à chaque action.
-    .slide: .wrapper
-        h2 Cases à cocher dans les factures
-        .img: img(src="./svg/avance_10.min.svg").upScale
+    .fonction
+        h3 Points de rendez-vous multiples
+        p Un client peut avoir le choix entre plusieurs rendez-vous
+    .fonction
+        h3 Produits on/off
+        p Désactivez temporairement des produits, retrouvez les l'année d'après
+    .fonction
+        h3 Discussions
+        p Commentaires directement sur les commandes pour rêgler les détails des produits.
+    .fonction
+        h3 Brouillons de commande
+        p  Quand un client modifie sa commande, un brouillon est sauvegardé.
+    .fonction
+        h3 Cases à cocher dans les factures
         p  Vérifiez que tout est bon en cochant une case pour chaque produit
-    .slide: .wrapper
-        h2 Préparation à l'avance
-        .img: img(src="./svg/avance_11.min.svg").upScale
+    .fonction
+        h3 Préparation à l'avance
         p  Imprimez les récapitulatifs de cueillette et préparation, préparez les paniers, puis livrez-les.
-    .slide: .wrapper
-        h2 Préparation à la demande
-        .img: img(src="./svg/avance_12.min.svg").upScale
+    .fonction
+        h3 Préparation à la demande
         p  Imprimez le récapitulatif de cueillette, allez au rendez-vous avec les produits en vrac, et préparez les paniers à la demande

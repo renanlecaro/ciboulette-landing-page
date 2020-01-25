@@ -4,7 +4,7 @@
 @lightGrey: #f5f5f5;
 @tablet: 1030px;
 @desktop:1200px;
-
+@desktop_grid:60px;
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,400&subset=latin-ext');
 body {
@@ -15,21 +15,20 @@ body {
   @media (min-width: @tablet) {
     font-size: 150%;
   }
+  @media (max-width: @tablet) {
+    padding-top: 60px;
+  }
 }
 
-.slide {
-  &:after {
-    content: "";
-    height: 70vh;
-    width: 1px;
-    display: block;
-  }
+.slide { 
+  border-bottom:1px solid #eee;
+  color: #333;
   padding: 1rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  box-sizing: border-box;
+  box-sizing: border-box; 
   .wrapper {
     width: 100%;
     max-width: 1560px;
@@ -37,75 +36,56 @@ body {
     position: relative;
     box-sizing: border-box;
 
-    @media (max-width: @tablet) {
-      &.centerOnSmallScreen {
-        text-align: center;
-      }
-    }
+    
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;  
 
     @media (min-width: @tablet) {
-      padding-left: 52.5%;
-    }
-    @media (min-width: @desktop) {
-      padding-left: 500px;
-      max-width: 1100px;
-    }
+      padding-left: ~"calc(50% + @{desktop_grid})" ;
+      min-height: ~"calc(100vh - @{desktop_grid} * 2 - 80px)" ;
+    } 
+    @media (max-width: @tablet) {
+      a.button,
+      h1,h2{
+        text-align: center;
+        align-self: center;
+      }
+    } 
 
-    & > .img {
+     > .img {
 
       display: flex;
       align-items: center;
       justify-content: center;
+      @media (max-width: @tablet) {
+        width: 80%;
+        height: 50vh;
+        margin:20px 10%;
+      }
       @media (min-width: @tablet) {
         position: absolute;
         left: 0;
-        width: 47.5%;
-        top: 50%;
-        height: 60vh;
-        transform: translate(0, -50%);
-      }
-      @media (min-width: @desktop) {
-        width: 450px;
-        height: 60vh;
-      }
+        width:  50% ;
+        top: @desktop_grid;
+        bottom: @desktop_grid;
+      } 
       & > img {
         width: auto;
-        height: auto;
-        @media (max-width: @tablet) {
-          max-width: 70vw;
-          max-height: 50vh;
-          margin: 10px;
-        }
-        @media (min-width: @tablet) {
-          max-width: 30vw;
-        }
-
+        height: auto; 
         max-height: 100%;
-        &.upScale {
-          width: 100%;
-          height: 50vh;
-          max-height: 400px;
+        max-width: 100%; 
+        &.upScale{
+          width: 100%
         }
-      }
-      &.touchLeft {
-        // The arrow coming from the left graph for ideas
-        margin-left: -1rem;
-        justify-content: flex-start;
-        & > img {
-          @media (min-width: @tablet) {
-            position: absolute;
-            left: -1rem;
-          }
-          margin-left: 0;
-          max-width: 100%;
-        }
-      }
+      } 
     }
     h1, h2 {
 
-        font-size: 2em;
+        font-size: 1.5em;
         font-weight: 400;
-        margin: 40px 0 0 0;
+        margin: 0;
         text-align: center;
 
       @media (min-width: @tablet) {
@@ -114,36 +94,30 @@ body {
         text-align: left;
       }
       @media (min-width: @desktop) {
-        font-size: 80px;
+        font-size: 60px;
       }
 
     }
     p {
       line-height: 1.5;
+      margin:0;
+    }
+    p, a,h1,h2, li{
+       margin-bottom: 30px;
     }
   }
 }
-
-.slide:nth-child(2n+1) {
-  background-color: @lightBlue;
-  background: radial-gradient(@lightBlue, darken(@lightBlue, 5%));
-  color: white;
-}
-
-.slide:nth-child(2n) {
-  background-color: @lightGrey;
-  background: radial-gradient(@lightGrey, darken(@lightGrey, 10%));
-  color: #333;
-}
+ 
 
 .button {
   display: inline-block;
   background: #88AA02;
   text-decoration: none;
+    text-transform: uppercase; 
   color: white;
   text-align: center;
   border: none;
-  padding: 1em 2em;
+  padding:  1em;
   margin: 0.5em 0;
   font-size: inherit;
   cursor: pointer;
@@ -159,14 +133,21 @@ body {
     background-color: #80a000;
     transition: transform 0.2s, box-shadow 0.2s;
   }
+  &.outline {
+    background: white;
+    color: #88AA02;
+    border: 2px solid #88AA02;
+    text-shadow: none;
+  }
 }
 
 ul.check {
   list-style: none;
   padding: 0;
+  margin:0;
   li {
     padding-left:50px;
-    margin: 20px 0;
+    margin:0;
     position: relative;
     &:before {
       content: "";
@@ -197,7 +178,7 @@ nav#topMenu {
     bottom: -60px;
     right: 0;
     padding: 10px;
-    background: #3091cf;
+    background: @green;
     color: #ffffff;
     margin: 10px;
     text-transform: uppercase;
@@ -207,9 +188,7 @@ nav#topMenu {
     flex-wrap: wrap;
     flex-direction: column;
     background: none;
-    a.try {
-      align-self: flex-end;
-    }
+    
 
     #toggleMenu ~ a {
       display: none;
@@ -228,7 +207,7 @@ nav#topMenu {
       content: "";
       display: block;
       position: fixed;
-      background: rgba(0, 0, 0, 0.2);
+      background: #fff;
       top: 0;
       left: 0;
       right: 0;
@@ -241,35 +220,32 @@ nav#topMenu {
   left: 0;
   right: 0;
   display: flex;
-  background: @lightBlue;
+  background: white;
   a {
     text-decoration: none;
-    padding: 20px 10px;
-    color: white;
-
+    padding: 0 30px;
+    line-height: 58px;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom:2px solid tranparent;
+    box-sizing:border-box;
     @media (min-width: @tablet) {
       min-width: 100px;
       text-align: center;
     }
-    font-size: 16px;
-    background: @lightBlue;
-    &:hover, &.isCurrentPage {
-      background: darken(@lightBlue, 5%);
+    font-size: 16px; 
+    &:hover, &.isCurrentPage { 
+      color: @green;
+      border-bottom-color:@green;
     }
-
-    &.try {
-      padding: 10px;
-      margin: 10px;
-      background: @green;
-      text-transform: uppercase;
-      &:hover {
-        background: darken(@green, 5%);
-      }
-    }
+  
   }
   .grow {
     flex-grow: 1;
   }
+  border-bottom:1px solid #eee;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.03);
 }
 
 @media (min-width: @tablet) {
@@ -328,5 +304,21 @@ nav#topMenu {
   }
 }
 
- 
+
+.fonctions_grid {
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  margin-top:60px;
+  .fonction{
+    padding:60px; 
+    h3{
+      font-size: inherit;
+      text-transform: uppercase;
+    } 
+    p{
+      font-size: inherit;
+      text-align: left;
+    }
+  }
+}
 @import "blog.less";
