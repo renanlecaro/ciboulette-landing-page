@@ -1,19 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,400&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto&display=swap');
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-weight: 400;
   padding: 0;
-}
-@media (min-width: 1030px) {
-  body {
-    font-size: 150%;
-  }
+  font-size: 16px;
 }
 @media (max-width: 1030px) {
   body {
     padding-top: 60px;
   }
+}
+h1,
+h2,
+.appName {
+  font-family: 'Pacifico', cursive;
+  text-transform: none;
+  font-weight: normal;
 }
 .slide {
   border-bottom: 1px solid #eee;
@@ -24,6 +27,7 @@ body {
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
+  font-size: 18px;
 }
 .slide .wrapper {
   width: 100%;
@@ -39,7 +43,7 @@ body {
 @media (min-width: 1030px) {
   .slide .wrapper {
     padding-left: calc(50% + 60px);
-    min-height: calc(100vh - 60px * 2 - 80px);
+    min-height: calc(100vh - 60px * 2 - 100px);
   }
 }
 @media (max-width: 1030px) {
@@ -69,6 +73,8 @@ body {
     width: 50% ;
     top: 60px;
     bottom: 60px;
+    max-height: 500px;
+    margin: auto;
   }
 }
 .slide .wrapper > .img > img {
@@ -114,7 +120,7 @@ body {
 }
 .button {
   display: inline-block;
-  background: #88AA02;
+  background: #88aa02;
   text-decoration: none;
   text-transform: uppercase;
   color: white;
@@ -129,18 +135,25 @@ body {
   box-shadow: 0 2px 0 #678200;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.21);
 }
-.button:active,
+.button:hover,
 .button:focus {
+  background-color: #749102;
+}
+.button:active {
   box-shadow: 0 0px 0 #678200;
   transform: translate(0, 2px);
-  background-color: #80a000;
   transition: transform 0.2s, box-shadow 0.2s;
 }
 .button.outline {
   background: white;
-  color: #88AA02;
-  border: 2px solid #88AA02;
+  color: #88aa02;
+  border: 2px solid;
   text-shadow: none;
+  box-shadow: none;
+}
+.button.outline:hover,
+.button.outline:focus {
+  color: #607801;
 }
 ul.check {
   list-style: none;
@@ -224,11 +237,11 @@ nav#topMenu a {
   padding: 0 30px;
   line-height: 58px;
   color: #333;
-  text-transform: uppercase;
   font-weight: bold;
-  border-bottom: 2px solid tranparent;
   box-sizing: border-box;
-  font-size: 16px;
+}
+nav#topMenu a:not(.appName) {
+  text-transform: uppercase;
 }
 @media (min-width: 1030px) {
   nav#topMenu a {
@@ -239,7 +252,6 @@ nav#topMenu a {
 nav#topMenu a:hover,
 nav#topMenu a.isCurrentPage {
   color: #88aa02;
-  border-bottom-color: #88aa02;
 }
 nav#topMenu .grow {
   flex-grow: 1;
@@ -251,31 +263,27 @@ nav#topMenu .grow {
 }
 .footer {
   padding: 2em;
-  font-size: 12px;
-  border-top: 1px solid #dadada;
   margin: 0;
-  line-height: 1.5;
-  order: 2;
+  background: #eee;
+  text-align: center;
   position: relative;
 }
 .footer .part {
+  display: inline-block;
   padding: 0.5em;
 }
 .footer .part a {
   margin: 0 5px;
   color: inherit;
 }
-@media (min-width: 900px) {
-  .footer {
-    padding-right: 50%;
-  }
-}
 .footer form {
-  margin: 2em 0;
-  background: #efefef;
+  max-width: 800px;
+  margin: 2em auto;
   display: flex;
   padding: 1em;
-  border-radius: 0.5em;
+}
+.footer form > * {
+  font-size: 16px;
 }
 .footer form #email {
   height: 3em;
@@ -294,151 +302,56 @@ nav#topMenu .grow {
   height: 3em;
   line-height: 3em;
 }
-.fonctions_grid {
+.grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin-top: 60px;
 }
-.fonctions_grid .fonction {
+.grid .grid-item {
   padding: 60px;
 }
-.fonctions_grid .fonction h3 {
-  font-size: inherit;
+.grid .grid-item h3 {
+  font-size: bold;
   text-transform: uppercase;
+  font-size: 0.9em;
+  color: #333;
 }
-.fonctions_grid .fonction p {
+.grid .grid-item > p {
   font-size: inherit;
   text-align: left;
-}
-.blog {
-  padding-top: 55px;
-}
-.blog a {
-  color: #2387c8;
-  margin-top: 20px;
-  text-decoration: none;
-}
-.blog a:visited {
-  color: #7d9cb1;
-}
-.blog a:hover span {
-  text-decoration: underline;
-}
-.blog a.back {
-  display: block;
-}
-.blog a.back:before {
-  content: "‹";
-  font-size: 120%;
-  margin-right: 10px;
-}
-.blog a.front {
-  display: block;
-  text-align: right;
-}
-.blog a.front:after {
-  text-decoration: none;
-  content: "›";
-  margin-left: 7px;
-  font-size: 1.7em;
-  line-height: 1;
-  position: relative;
-  top: 0.1em;
-}
-.blog h1 {
-  color: #333;
-  order: 2;
-  font-weight: 100;
-  margin: 0;
-  font-size: 80px;
-  padding: 120px 20px 60px 20px;
-  text-align: center;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-@media (max-width: 400px) {
-  .blog h1 {
-    font-size: 40px;
-    padding: 20px;
-  }
-}
-@media (min-width: 1200px) {
-  .blog h1 {
-    position: fixed;
-    padding-left: 55%;
-    text-align: left;
-  }
-}
-.blog .list {
-  position: relative;
-  z-index: 2;
-  background: #fff;
-  padding: 40px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-}
-@media (max-width: 1200px) {
-  .blog .list {
-    margin: -20px auto;
-    max-width: 1000px;
-  }
-}
-@media (min-width: 1200px) {
-  .blog .list {
-    margin: 80px 50% 40px 40px;
-  }
-}
-.blog .list .blogItem {
-  margin-bottom: 50px;
-  position: relative;
-}
-.blog .list .blogItem .date {
-  opacity: 0.3;
-}
-.blog .list .blogItem .title {
-  font-weight: bold;
-  font-size: 150%;
-  color: #333;
-  line-height: 1.1;
-  margin-bottom: 0.5em;
-}
-.blog .list .blogItem .intro {
   color: #666;
 }
-.blog .list.blogpost {
-  overflow: hidden;
+.blog-link-and-date {
+  display: flex;
+  justify-content: space-between;
 }
-.blog .list.blogpost h2 {
-  font-weight: bold;
-  font-size: 150%;
+.blog-link-and-date > span {
+  opacity: 0.2;
+}
+.blog-link-and-date a {
+  text-decoration: none;
+}
+.blog-link-and-date a:hover {
+  text-decoration: underline;
+}
+.blogPost {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 20px;
+}
+@media (min-width: 1030px) {
+  .blogPost {
+    padding: 60px;
+  }
+}
+.blogPost h2 {
   color: #333;
-  line-height: 1.1;
-  margin-bottom: 0.6em;
-  margin-top: 0;
 }
-.blog .list.blogpost .intro {
+.blogPost .intro {
   opacity: 0.5;
 }
-.blog .list.blogpost img {
+.blogPost img {
   max-width: 100%;
   margin: 20px 0;
   display: block;
-}
-.blog ~ .footer {
-  padding: 40px;
-}
-@media (min-width: 1200px) {
-  .blog ~ .footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    justify-content: flex-start;
-    z-index: 1;
-    background: #fff;
-    border-top: none;
-    padding-left: 55%;
-  }
 }

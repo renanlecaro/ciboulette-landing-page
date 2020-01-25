@@ -66,7 +66,7 @@ function getPostData(path) {
   let content=fs.readFileSync(path).toString()
   let lines=content.split('\n');
   return {
-    title:lines[0].replace('h2 ',''),
+    title:lines[0].replace('h1 ',''),
     intro:lines[1].replace('.intro ',''),
     date:path.match(/[0-9\-]+/)[0],
     content

@@ -30,13 +30,13 @@ app.get('/:date', function (req, res) {
 
   let pages=getDatesList().map(date=>({
     date,
-    title: fs.readFileSync(base+'/'+date+'.pug').toString().split('\n')[0].replace('h2 ','')
+    title: fs.readFileSync(base+'/'+date+'.pug').toString().split('\n')[0].replace('h1 ','')
   }))
 
   let title='',intro='',content="";
   try{
     let lines= fs.readFileSync(base+'/'+req.params.date+'.pug').toString().split('\n')
-    title=(lines[0]||'').replace(/^h2 /,'')
+    title=(lines[0]||'').replace(/^h1 /,'')
     intro=(lines[1]||'').replace(/^.intro /,'')
      content=pug.render(lines.slice(2).join('\n'))
 
@@ -88,7 +88,7 @@ function save(req,res,redirect){
   html2jade.convertHtml(req.body.content, {}, function (err, jade) {
     if(err) return next(err)
 
-    fs.writeFileSync(base+'/'+req.params.date+'.pug', 'h2 '+title+'\n.intro '+intro+'\n'+
+    fs.writeFileSync(base+'/'+req.params.date+'.pug', 'h1 '+title+'\n.intro '+intro+'\n'+
       jade)
     res.redirect(redirect)
   });

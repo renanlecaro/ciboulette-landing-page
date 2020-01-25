@@ -30,29 +30,22 @@ mixin page(title, description)
             block
             nav#topMenu
               input(type="checkbox")#toggleMenu
-              a(href="/").appName ciboulette.net
+              a(href="/").appName Ciboulette.net
+              .grow
               a(href="/premiere_vente.html") Tutoriels
               a(href="/fonctions.html") Fonctions
               a(href="/tarif.html") Prix
               a(href="/blog/") Blog
               a(target="_blank" href="https://trello.com/b/GaZSJzzq/cyberl%C3%A9gume-roadmap") Roadmap
-              .grow
               a(target="_blank" href="https://app.ciboulette.net") Connexion
               label(for="toggleMenu").toggleMenu Menu
             .footer
             
+              +newsLetter()             
               .part 
-                | Renan LE CARO auto-entreprise
-              .part
-                | Tel :
                 a(href="tel:+336 28 35 01 14") 06 28 35 01 14
-              .part
-                | Email :
-                a(href="mailto:renan.lecaro@gmail.com") renan.lecaro@gmail.com
-              .part Siret : 51532033100025
-              .part La Basse Bouexière n°9, 35360 ,Médréac, France
+              .part 
+                a(href="mailto:renan.lecaro@gmail.com") renan.lecaro@gmail.com 
               .part            
-                | Ce site n'utilise pas de cookies marketing
-                a(href="/cgu.html") CGU
-              +newsLetter()              
+                a(href="/cgu.html") Conditions générales  
             script(src="/scripts.js")
