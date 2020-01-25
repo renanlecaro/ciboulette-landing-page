@@ -9,13 +9,20 @@
             <link>https://ciboulette.net/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 25 Jan 2020 13:01:29 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 25 Jan 2020 13:11:03 GMT</lastBuildDate>
         <atom:link href="https://ciboulette.net/blog/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 25 Jan 2020 13:01:29 GMT</pubDate>
+        <pubDate>Sat, 25 Jan 2020 13:11:03 GMT</pubDate>
         <copyright><![CDATA[All rights reserved]]></copyright>
         <language><![CDATA[fr-fr]]></language>
         <webMaster><![CDATA[renan.lecaro@ŋmail.com]]></webMaster>
         <ttl>300</ttl>
+        <item>
+            <title><![CDATA[Nouveau look]]></title>
+            <description><![CDATA[Un look "frais" pour le site de présentation]]></description>
+            <link>https://ciboulette.net/blog/2020-01-25</link>
+            <guid isPermaLink="false">2020-01-25</guid>
+            <pubDate>Sat, 25 Jan 2020 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Cyberlégume devient ciboulette.net]]></title>
             <description><![CDATA[En partie pour simplifier la communication du nom, et aussi pour faire "table rase" vis à vis des filtres anti spam]]></description>
