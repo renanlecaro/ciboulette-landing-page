@@ -1,0 +1,26 @@
+h1 Nouveau tableau clients
+.intro Un nouveau tableau "tout en un" pour ajouter vos clients et suivre leurs commandes
+html
+  body
+    p
+      | Les 3 onglets &quot;destinataires&quot;, &quot;suivi des commandes&quot; et &quot;v&eacute;rification et envoi&quot; faisaient un peu doublons &agrave; mes yeux. J&apos;ai transform&eacute; &ccedil;a en un seul tableau, &quot;clients&quot;, avec la liste des destinataires et leurs status.
+    p En vrac, les nouveaut&eacute;s d&eacute;ploy&eacute;es aujourd&apos;hui :
+    ul
+      li
+        | Vous avez aussi acc&egrave;s &agrave; l&apos;option &quot;renvoyer l&apos;email d&apos;invitation&quot; pour un client individuel.
+      li
+        | Il y avait un bug avec les tooltip client qui affichaient une balance de 0.00&euro;, &ccedil;a devrait &ecirc;tre r&eacute;gl&eacute;
+      li
+        | Un petit + ou - est maintenant affich&eacute; &agrave; cot&eacute; des clients avec une balance non nulle.
+      li
+        | L&apos;animation d&apos;ouverture des fen&ecirc;tre modales a &eacute;t&eacute; supprim&eacute;e, j&apos;avais tent&eacute; de cr&eacute;er une transition entre le bouton cliqu&eacute; et la fen&ecirc;tre qui s&apos;ouvre mais d&egrave;s qu&apos;il y avait un peut trop d&apos;&eacute;l&eacute;ments &agrave; l&apos;&eacute;cran l&apos;animation devenait saccad&eacute;e, donc autant la virer.
+      li
+        | Les paiements sont maintenant g&eacute;r&eacute;s par le m&ecirc;me composant de tableau, passez la souris sur les ent&ecirc;tes pour voir les totaux.
+      li
+        | Il y avait un bug ou passer commande pour un client confirmait son inscription aux mailings, c&apos;est corrig&eacute;
+      li
+        | Le tri par ordre alphab&eacute;tique des clients ignore maintenant les accents (avant un client avec la premi&egrave;re lettre de son nom accentu&eacute;e se retrouvait en fin de liste)
+    p
+      img.fr-dib.fr-fil(src='/blog/imgs/ff65aa8829b8457b9acf679f8661f2512e38f968.jpg')
+    p
+      br
