@@ -9,13 +9,20 @@
             <link>https://ciboulette.net/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 26 Jan 2020 11:29:15 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 27 Jan 2020 15:19:20 GMT</lastBuildDate>
         <atom:link href="https://ciboulette.net/blog/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 26 Jan 2020 11:29:15 GMT</pubDate>
+        <pubDate>Mon, 27 Jan 2020 15:19:20 GMT</pubDate>
         <copyright><![CDATA[All rights reserved]]></copyright>
         <language><![CDATA[fr-fr]]></language>
         <webMaster><![CDATA[renan.lecaro@ŋmail.com]]></webMaster>
         <ttl>300</ttl>
+        <item>
+            <title><![CDATA[Corrections suite aux évolutions]]></title>
+            <description><![CDATA[Le changement c'est bien mais ça fout le boxon]]></description>
+            <link>https://ciboulette.net/blog/2020-01-27</link>
+            <guid isPermaLink="false">2020-01-27</guid>
+            <pubDate>Mon, 27 Jan 2020 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Nouveau tableau clients]]></title>
             <description><![CDATA[Un nouveau tableau "tout en un" pour ajouter vos clients et suivre leurs commandes]]></description>
