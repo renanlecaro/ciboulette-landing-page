@@ -1,11 +1,17 @@
 include mixins
 
-+page("Tarif de ciboulette.net, logiciel pour maraîcher","ciboulette.net peut être essayé un mois, puis "+price+"€ / mois")
++page("Tarif de ciboulette.net, logiciel pour maraîcher","ciboulette.net peut être essayé un mois")
     .slide: .wrapper
-        h1=price + '€ / mois'
+        h1 300€ / an
         .img: img(src!='./svg/tarif.min.svg').upScale
-        p Ce tarif nous permet de payer les frais de fonctionnement, le système d'envoi de SMS de rappel, et de financer les différentes évolutions dont bénéficie le site.
-        p Après le mois d'essai gratuit, nous vous contacterons pour savoir si vous souhaitez continuer d'utiliser le produit. Ce tarif n'est garanti que si vous payez 12 mois d'avance.
+        p Ce tarif nous permet de payer les frais de fonctionnement, le système d'envoi de SMS de rappel, et de financer les différentes évolutions dont bénéficie le site. La facturation est uniquement par année, pour simplifier la comptabilité de mon coté.
+        p Après le mois d'essai gratuit, nous vous contacterons pour savoir si vous souhaitez continuer d'utiliser le produit.
+        p Ce tarif fonctionne par année, la première année, si vous commencez par exemple en avril, janvier février et mars vous sont offerts. L'année suivante, vous paierez une année complète.
+        p A tout moment vous pouvez fermer votre compte (écrivez moi à l'adresse renan.lecaro@gmail.com) et je vous rembourserais les mois restants. Par contre, une fois un compte fermé ainsi,
+            | il ne peux pas être ré-ouvert (pour éviter les "poses hivernale")
+        p Le paiement peut se faire par virement ou par paypal
+        p En cas d'absence de paiement, je vous enverrait un rappel, et une semaine plus tard votre compte sera temporairement bloqué en attendant le paiement.
+
         p TVA non applicable - article 293 B du CGI
 
 

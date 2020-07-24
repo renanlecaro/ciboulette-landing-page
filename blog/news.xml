@@ -9,13 +9,51 @@
             <link>https://ciboulette.net/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 05 Apr 2020 22:57:56 GMT</lastBuildDate>
-        <atom:link href="https://ciboulette.net/blog/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 05 Apr 2020 22:57:56 GMT</pubDate>
+        <lastBuildDate>Fri, 24 Jul 2020 06:57:36 GMT</lastBuildDate>
+        <atom:link href="https://ciboulette.net/blog/news.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Fri, 24 Jul 2020 06:57:36 GMT</pubDate>
         <copyright><![CDATA[All rights reserved]]></copyright>
         <language><![CDATA[fr-fr]]></language>
         <webMaster><![CDATA[renan.lecaro@ŋmail.com]]></webMaster>
         <ttl>300</ttl>
+        <item>
+            <title><![CDATA[L'avenir de ciboulette]]></title>
+            <description><![CDATA[Nouveau tarif plus durable à 300€ / ans, fonctions dépoyées dans les derniers mois mais non plubliées]]></description>
+            <link>https://ciboulette.net/blog/2020-07-24</link>
+            <guid isPermaLink="false">2020-07-24</guid>
+            <pubDate>Fri, 24 Jul 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Réglement de quelques problèmes]]></title>
+            <link>https://ciboulette.net/blog/2020-05-05</link>
+            <guid isPermaLink="false">2020-05-05</guid>
+            <pubDate>Tue, 05 May 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Page clients beaucoup plus rapide]]></title>
+            <link>https://ciboulette.net/blog/2020-05-04</link>
+            <guid isPermaLink="false">2020-05-04</guid>
+            <pubDate>Mon, 04 May 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Meilleur gestion des problèmes de connexion avec gmail]]></title>
+            <link>https://ciboulette.net/blog/2020-05-03</link>
+            <guid isPermaLink="false">2020-05-03</guid>
+            <pubDate>Sun, 03 May 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Nouvelle fonctionnalité : limitez le nombre de commandes pour un rendez vous]]></title>
+            <description><![CDATA[Les Jardins d'Orléans en avaient besoin, donc vous devriez tous y avoir accès maintenant. ]]></description>
+            <link>https://ciboulette.net/blog/2020-05-02</link>
+            <guid isPermaLink="false">2020-05-02</guid>
+            <pubDate>Sat, 02 May 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Les SMS de rappel sont maintenant désactivés par défaut]]></title>
+            <link>https://ciboulette.net/blog/2020-05-01</link>
+            <guid isPermaLink="false">2020-05-01</guid>
+            <pubDate>Fri, 01 May 2020 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Fermeture des inscriptions]]></title>
             <description><![CDATA[Assurer le support de nouveaux clients depuis la russie s'avère trop compliqué]]></description>

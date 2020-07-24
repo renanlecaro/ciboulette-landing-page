@@ -13,8 +13,7 @@ body {
   margin: 0;
   font-weight: 400;
   padding: 0;
-
-    font-size: 16px; 
+  font-size: 16px;
   @media (max-width: @tablet) {
     padding-top: 60px;
   }
@@ -25,7 +24,7 @@ h1,h2,.appName{
   text-transform: none;
   font-weight: normal;
 }
-.slide { 
+.slide {
   border-bottom:1px solid #eee;
   color: #333;
   padding: 1rem;
@@ -33,8 +32,8 @@ h1,h2,.appName{
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  box-sizing: border-box; 
-    font-size: 18px; 
+  box-sizing: border-box;
+    font-size: 18px;
   .wrapper {
     width: 100%;
     max-width: 1560px;
@@ -42,24 +41,24 @@ h1,h2,.appName{
     position: relative;
     box-sizing: border-box;
 
-    
+
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;  
+    justify-content: center;
 
     @media (min-width: @tablet) {
       padding-left: ~"calc(50% + @{desktop_grid})" ;
       min-height: ~"calc(100vh - @{desktop_grid} * 2 - 100px)" ;
 
-    } 
+    }
     @media (max-width: @tablet) {
       a.button,
       h1,h2{
         text-align: center;
         align-self: center;
       }
-    } 
+    }
 
      > .img {
 
@@ -79,16 +78,16 @@ h1,h2,.appName{
         bottom: @desktop_grid;
         max-height: 500px;
         margin: auto;
-      } 
+      }
       & > img {
         width: auto;
-        height: auto; 
+        height: auto;
         max-height: 100%;
-        max-width: 100%; 
+        max-width: 100%;
         &.upScale{
           width: 100%
         }
-      } 
+      }
     }
     h1, h2 {
 
@@ -116,13 +115,13 @@ h1,h2,.appName{
     }
   }
 }
- 
+
 
 .button {
   display: inline-block;
   background: @green;
   text-decoration: none;
-  text-transform: uppercase; 
+  text-transform: uppercase;
   color: white;
   text-align: center;
   border: none;
@@ -165,7 +164,7 @@ ul.check {
     position: relative;
     &:before {
       content: "";
-      width: 30px; 
+      width: 30px;
       background: url("/svg/check.min.svg");
       position: absolute;
       top:0;
@@ -202,7 +201,7 @@ nav#topMenu {
     flex-wrap: wrap;
     flex-direction: column;
     background: none;
-    
+
 
     #toggleMenu ~ a {
       display: none;
@@ -243,16 +242,16 @@ nav#topMenu {
     &:not(.appName){
       text-transform: uppercase;
     }
-    font-weight: bold; 
+    font-weight: bold;
     box-sizing:border-box;
     @media (min-width: @tablet) {
       min-width: 100px;
       text-align: center;
     }
-    &:hover, &.isCurrentPage { 
-      color: @green; 
+    &:hover, &.isCurrentPage {
+      color: @green;
     }
-  
+
   }
   .grow {
     flex-grow: 1;
@@ -268,8 +267,8 @@ nav#topMenu {
 }
 
 .footer {
-  padding:2em;  
-  margin: 0;  
+  padding:2em;
+  margin: 0;
   background:#eee;
   text-align: center;
   .part {
@@ -279,13 +278,13 @@ nav#topMenu {
       margin: 0 5px;
       color: inherit;
     }
-  } 
+  }
   position: relative;
   form {
     max-width:800px;
     margin:2em auto;
     display: flex;
-    padding: 1em; 
+    padding: 1em;
     >*{
       font-size:16px;
     }
@@ -312,17 +311,17 @@ nav#topMenu {
 
 
 .grid {
-  display: grid; 
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin-top:60px;
   .grid-item{
-    padding:60px; 
+    padding:60px;
     h3{
       font-size: bold;
       text-transform: uppercase;
       font-size: 0.9em;
       color: #333;
-    } 
+    }
     >p{
       font-size: inherit;
       text-align: left;
@@ -352,8 +351,8 @@ nav#topMenu {
     @media (min-width: @tablet) {
       padding: 60px;
     }
-    h2{  
-      color: #333; 
+    h2{
+      color: #333;
 
     }
     .intro {

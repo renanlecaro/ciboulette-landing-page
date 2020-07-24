@@ -20,7 +20,7 @@ function renderRSSFeed(entries) {
   var feed = new RSS({
     title:'Blog cyberlégume',
     description:'Nouveautés dans cyberlégume et informations annexes sur le  projet',
-    feed_url:'https://ciboulette.net/blog/rss.xml',
+    feed_url:'https://ciboulette.net/blog/news.xml',
     site_url:'https://ciboulette.net/',
     image_url:'https://ciboulette.net/img/cyberlogo.png',
     webMaster:'renan.lecaro@ŋmail.com',
@@ -39,7 +39,7 @@ function renderRSSFeed(entries) {
     })
   })
   const xml=feed.xml({indent: true})
-  fs.writeFileSync(base+'/rss.xml', xml)
+  fs.writeFileSync(base+'/news.xml', xml)
 }
 
 function getBlogPostsPaths() {

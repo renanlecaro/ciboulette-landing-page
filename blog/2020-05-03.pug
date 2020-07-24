@@ -1,0 +1,27 @@
+h1 Meilleur gestion des problèmes de connexion avec gmail
+.intro 
+html
+  body
+    p
+      | J&apos;ai mi en place il y a quelques temps l&apos;envoi des emails via gmail. L&apos;avantage est que les clients peuvent vous r&eacute;pondre directement, et vous devriez arriver moins souvent en spam.
+    p
+      | Mais il semble que cette connexion se &quot;p&eacute;rime&quot; apr&egrave;s quelques semaines et ne marche plus. Et donc jusque la, &ccedil;a faisait planter l&apos;envoi d&apos;email quand &ccedil;a arrivait.
+    p
+      | Maintenant, l&apos;envoi sera relay&eacute; &agrave; sendgrid (le syst&egrave;me de base) si l&apos;envoi gmail plante. De plus, juste avant l&apos;envoi des emails d&apos;invitation, ciboulette v&eacute;rifie la connexion et vous demande de la &quot;rafra&icirc;chir&quot; si n&eacute;cessaire.
+    p
+      | Aussi, pour &eacute;viter les cafouillages avec les mails sendgrid, ils seront clairement indiqu&eacute; avec comme exp&eacute;diteur &quot;ciboulette&quot;, et votre email sera dans l&apos;ent&ecirc;te de page.
+    p
+      | Ca devrait &eacute;viter les gens qui ajoutent &quot;ne-pas-r&eacute;
+      a(href='mailto:pondre@ciboulette.net', target='_blank')
+        | pondre@ciboulette.
+        wbr
+        | net
+      | &quot; dans leur carnet d&apos;adresse et ensuite m&apos;envoient leurs emails au lieu de vous contacter vous.
+    p
+      | J&rsquo;esp&egrave;re que &ccedil;a va limiter la confusion. Pour les mairaichers qui n&apos;ont pas encore connect&eacute; leur gmail, je vous conseille de le faire. Il y a un tuto ici : 
+      a(data-saferedirecturl='https://www.google.com/url?q=https://ciboulette.net/blog/2020-01-19.html&source=gmail&ust=1588726634119000&usg=AFQjCNEXh0b5LDFPMK0wZBoXAeq3Y7QlJw', href='https://ciboulette.net/blog/2020-01-19.html', target='_blank')
+        | https://ciboulette.net/blog/
+        wbr
+        | 2020-01-19.html
+    p
+      br
