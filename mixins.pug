@@ -1,6 +1,6 @@
 mixin newsLetter()
  form#mc-embedded-subscribe-form.validate(action='https://gmail.us20.list-manage.com/subscribe/post?u=41e9e165060bfc2b465c44f6a&id=607e36af07', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='')
-    
+
           input#email(type='email',   name='EMAIL' placeholder="Votre email pour la Newsletter" required)
           div(style='position: absolute; left: -5000px;', aria-hidden='true')
             input(type='text', name='b_41e9e165060bfc2b465c44f6a_607e36af07', tabindex='-1', value='')
@@ -36,16 +36,21 @@ mixin page(title, description)
               a(href="/fonctions.html") Fonctions
               a(href="/tarif.html") Prix
               a(href="/blog/") Blog
-              a(target="_blank" href="https://trello.com/b/GaZSJzzq/cyberl%C3%A9gume-roadmap") Roadmap
               a(target="_blank" href="https://app.ciboulette.net") Connexion
               label(for="toggleMenu").toggleMenu Menu
             .footer
-            
-              +newsLetter()             
-              .part 
+
+              +newsLetter()
+              .part
                 a(href="tel:+336 28 35 01 14") 06 28 35 01 14
-              .part 
-                a(href="mailto:renan.lecaro@gmail.com") renan.lecaro@gmail.com 
-              .part            
-                a(href="/cgu.html") Conditions générales  
+              .part
+                a(href="mailto:renan.lecaro@gmail.com") renan.lecaro@gmail.com
+              .part
+                a(href="/cgu.html") Conditions générales
+              .part
+                a(target="_blank" href="https://trello.com/b/GaZSJzzq/cyberl%C3%A9gume-roadmap") Trello
+              .part
+                a(target="_blank" href="https://uptime.ciboulette.net/") Uptime
+
+
             script(src="/scripts.js")
