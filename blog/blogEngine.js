@@ -13,6 +13,22 @@ function renderBlogIndex( ) {
     entries
   }))
   renderRSSFeed(entries)
+  renderJSONPCallback(entries)
+
+}
+
+function renderJSONPCallback(entries) {
+
+  const {title, intro, date, content} = entries[0]
+  const js=`
+  window.blogLastUpdated && window.blogLastUpdated(${JSON.stringify({
+    title,
+    url: 'https://ciboulette.net/blog/'+date,
+    date:new Date(date)
+  })});
+  `
+  fs.writeFileSync(base+'/lastPostJsonP.js', js)
+
 }
 
 function renderRSSFeed(entries) {
