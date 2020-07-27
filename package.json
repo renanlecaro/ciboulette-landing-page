@@ -17,8 +17,8 @@
     "generate_pages": "pug  *.pug --watch --silent",
     "generate_less": "autoless styles",
     "serve": "http-server",
-    "blog": "nodemon --exitcrash blog/blogEngine.js",
-    "blog_editor": "nodemon --exitcrash blog/blogEditorServer.js"
+    "blog": "nodemon --exitcrash --watch blog/blogEngine.js  blog/blogEngine.js",
+    "blog_editor": "nodemon --exitcrash --watch blog/blogEditorServer.js blog/blogEditorServer.js"
   },
   "homepage": "https://cyberlegu.me",
   "devDependencies": {
