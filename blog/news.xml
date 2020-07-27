@@ -9,13 +9,20 @@
             <link>https://ciboulette.net/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 26 Jul 2020 06:00:47 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 27 Jul 2020 02:55:05 GMT</lastBuildDate>
         <atom:link href="https://ciboulette.net/blog/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 26 Jul 2020 06:00:47 GMT</pubDate>
+        <pubDate>Mon, 27 Jul 2020 02:55:05 GMT</pubDate>
         <copyright><![CDATA[All rights reserved]]></copyright>
         <language><![CDATA[fr-fr]]></language>
         <webMaster><![CDATA[renan.lecaro@ŋmail.com]]></webMaster>
         <ttl>300</ttl>
+        <item>
+            <title><![CDATA[Nouveau concept pour l'expérience de vos clients]]></title>
+            <description><![CDATA[Je souhaite simplifier la prise de commande pour règler certains problèmes existants]]></description>
+            <link>https://ciboulette.net/blog/2020-07-27</link>
+            <guid isPermaLink="false">2020-07-27</guid>
+            <pubDate>Mon, 27 Jul 2020 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[L'avenir de ciboulette]]></title>
             <description><![CDATA[Nouveau tarif plus durable à 300€ / ans, fonctions dépoyées dans les derniers mois mais non plubliées]]></description>
