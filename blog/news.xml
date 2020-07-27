@@ -9,9 +9,9 @@
             <link>https://ciboulette.net/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 27 Jul 2020 02:55:05 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 27 Jul 2020 08:01:31 GMT</lastBuildDate>
         <atom:link href="https://ciboulette.net/blog/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 27 Jul 2020 02:55:05 GMT</pubDate>
+        <pubDate>Mon, 27 Jul 2020 08:01:31 GMT</pubDate>
         <copyright><![CDATA[All rights reserved]]></copyright>
         <language><![CDATA[fr-fr]]></language>
         <webMaster><![CDATA[renan.lecaro@ŋmail.com]]></webMaster>
@@ -22,6 +22,13 @@
             <link>https://ciboulette.net/blog/2020-07-27</link>
             <guid isPermaLink="false">2020-07-27</guid>
             <pubDate>Mon, 27 Jul 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Nouvelles fonctions]]></title>
+            <description><![CDATA[Notifications web, liste de clients ayant commandé un produit]]></description>
+            <link>https://ciboulette.net/blog/2020-07-26</link>
+            <guid isPermaLink="false">2020-07-26</guid>
+            <pubDate>Sun, 26 Jul 2020 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[L'avenir de ciboulette]]></title>
