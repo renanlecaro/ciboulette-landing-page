@@ -9,13 +9,20 @@
             <link>https://ciboulette.net/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 27 Jul 2020 10:56:28 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Jul 2020 06:30:53 GMT</lastBuildDate>
         <atom:link href="https://ciboulette.net/blog/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 27 Jul 2020 10:56:28 GMT</pubDate>
+        <pubDate>Thu, 30 Jul 2020 06:30:53 GMT</pubDate>
         <copyright><![CDATA[All rights reserved]]></copyright>
         <language><![CDATA[fr-fr]]></language>
         <webMaster><![CDATA[renan.lecaro@ŋmail.com]]></webMaster>
         <ttl>300</ttl>
+        <item>
+            <title><![CDATA[Petites corrections, et invitation à discuter de l'application]]></title>
+            <description><![CDATA[Le design de nouvelles interfaces est plus intéressant quand on le fait avec les retours des utilisateurs]]></description>
+            <link>https://ciboulette.net/blog/2020-07-30</link>
+            <guid isPermaLink="false">2020-07-30</guid>
+            <pubDate>Thu, 30 Jul 2020 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Nouveaux articles du blog directement dans l'appli]]></title>
             <description><![CDATA[Annonce de nouvelles fonctions]]></description>

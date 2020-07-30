@@ -1,3 +1,3 @@
 
-  window.blogLastUpdated && window.blogLastUpdated({"title":"Nouveaux articles du blog directement dans l'appli","url":"https://ciboulette.net/blog/2020-07-27","date":"2020-07-27T00:00:00.000Z"});
+  window.blogLastUpdated && window.blogLastUpdated({"title":"Petites corrections, et invitation à discuter de l'application","url":"https://ciboulette.net/blog/2020-07-30","date":"2020-07-30T00:00:00.000Z"});
   
