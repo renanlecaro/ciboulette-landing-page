@@ -1,0 +1,61 @@
+h1 Future éditeur de produit
+.intro Ou comment concilier la facilité d'utilisation pour les débutants et l'efficacité pour les experts
+html
+  body
+    p Hello
+    p
+      | Je travaille depuis quelques jours sur une
+      a(href='https://trello.com/c/LbZOvFmF/130-recoder-l%C3%A9diteur-de-produit-en-preact') &nbsp;r&eacute;&eacute;criture de l&apos;&eacute;diteur de produit
+      | , c&apos;est une premi&egrave;re &eacute;tape dans la 
+      a(href='https://trello.com/c/cVOvqsjx/42-epic-passer-de-viewmodel-%C3%A0-preact-pour-les-fenetres-modales') r&eacute;&eacute;criture de toutes les fen&ecirc;tres modales de l&apos;application
+      |  dans un syst&egrave;me plus moderne : preact.
+    p
+      | L&apos;avantage de cette nouvelle technologie est principalement que j&apos;ai beaucoup d&apos;exp&eacute;rience avec celle-ci (dans l&apos;industrie), donc je devrais &eacute;crire moins de bugs et mieux comprendre ce qu&apos;il se passe quand un bug appara&icirc;t.
+    p
+      | Je souhaite profiter de la r&eacute;&eacute;criture pour r&eacute;organiser l&apos;&eacute;diteur de produit, avec le temps il a accumul&eacute; beaucoup de fonctions sans qu&apos;il n&apos;y ai vraiment d&apos;organisation en place.
+    h2 Version actuellement en production
+    p Pour rappel, voici ci-dessous l&apos;&eacute;diteur de produit actuel &nbsp;:
+    p
+      img.fr-dib.fr-fil(src='/blog/imgs/71af8e5f6dd7efda3ef2fa9a2bdc4878feaf4f35.jpg', style='width: 872px;')
+    p
+      br
+    p
+      | Beaucoup de boutons donc, et pas beaucoup d&apos;organisation. L&apos;avantage de ce syst&egrave;me, c&apos;est que tout est accessible en un clic. En revanche, le look est franchement moche et ce n&apos;est vraiment pas &eacute;vident pour un d&eacute;butant de comprendre ce qui est important ou non.
+    h2 Maquette pour le re-design
+    p
+      | Voici le design que je souhaite impl&eacute;menter actuellement, ce n&apos;est qu&apos;une image ici, pas une capture d&apos;&eacute;cran de l&apos;application.
+    p
+      img.fr-dib.fr-fil(src='/blog/imgs/4e8ef01c48e14ceda0106510c21fec7e3db49011.jpg')
+    h2 Progr&egrave;s du d&eacute;veloppement
+    p
+      | Pour l&apos;instant, j&apos;ai une version d&eacute;coup&eacute;e en 3 tabs, avec tous les textes d&apos;aide visibles en permanence, je pense que c&apos;est un d&eacute;but, mais trop orient&eacute; &quot;facile d&apos;acc&egrave;s pour les d&eacute;butants&quot; et pas assez &quot;rapide pour les experts&quot;. C&apos;&eacute;tait beaucoup de travail de r&eacute;&eacute;crire cette fen&ecirc;tre, mais maintenant, je peux tr&egrave;s facilement changer le look, donc fignoler la fen&ecirc;tre ne devrait pas prendre trop longtemps.
+    p
+      span.fr-img-caption.fr-dib.fr-fil(style='width: 537px; width: 537px;')
+        span.fr-img-wrap
+          img(src='/blog/imgs/62cfd229541b95bf2cf22992159e5afd1193171d.jpg')
+          span.fr-inner
+            | Infos produit : les infos essentielles sur le produit. La TVA n&apos;est demand&eacute;e que si l&apos;utilisateur l&apos;affiche dans ses factures.
+      span.fr-img-caption.fr-dib.fr-fil(style='width: 542px; width: 542px;')
+        span.fr-img-wrap
+          img(src='/blog/imgs/836fad8cc7f9c06404043c35e6c316ce9a26905d.jpg')
+          span.fr-inner Restrictions : les diff&eacute;rentes mani&egrave;res de limiter les commandes de ce produit
+    p
+      span.fr-img-caption.fr-dib.fr-fil.fr-draggable(contenteditable='false', draggable='false', style='width: 544px; width: 544px;')
+        scribens-extension(style='position: absolute; top: 0px; left: 0px; pointer-events: none;')
+    ._2UCDQFXKR6p48tOXS5KSmY(data-scribens-part='highlights', style='position: absolute; top: 0px; left: 0px;')
+      div(style='box-sizing: content-box;top: 509.953125px;left: 0px;width: 544px;height: 31px;position: relative;pointer-events: none;overflow: hidden;border: 0px;border-radius: 0px;padding: 0px;margin: 0px;z-index: 0')
+        div(style='position: absolute;top: 5px;left: 5px')
+          div(style='height: 1062px;width: 2088px')
+            ._1whA3YTxMTqm6JTmBVYbtB._13V8v8cG_9b4HhA7Q0834w(data-type='0', data-type-name='Cor', data-hash='93d3e5132f0f5bff618d23d3755284d4.0', data-time='1596673604672', style='top: 0px; left: 175px; width: 19px; height: 16px;')
+    span.fr-img-wrap
+      img(src='/blog/imgs/286054d9dbc73cd40dfbc41390af8b8adbfacf88.jpg')
+      span.fr-inner(contenteditable='true', data-scribens-auto-check='true', spellcheck='false')
+        | Photo .. cet &eacute;cran-ci est assez clair &agrave; mon avis
+        br
+    p
+    p
+      | A mon avis, c&apos;est d&eacute;j&agrave; plus joli que l&apos;&eacute;cran existant, mais pas encore tout &agrave; fait au point.
+    p
+      | La division en trois tabs n&apos;est pas vraiment n&eacute;cessaire, je pense que deux suffisent. Afficher les textes d&apos;aide en permanence surcharge l&apos;interface, je pense qu&apos;un petit bouton d&apos;aide serait plus pertinent, m&ecirc;me s&apos;il y a plus de chance que l&apos;utilisateur ne voit pas le texte d&apos;aide de cette mani&egrave;re. &Ccedil;a va me forcer &agrave; mieux r&eacute;diger les labels des diff&eacute;rents inputs.
+    p
+      | Je continue de peaufiner cette page avant le d&eacute;ploiement, pour m&apos;assurer que le nouveau design soit mieux que l&apos;ancien pour tout le monde.

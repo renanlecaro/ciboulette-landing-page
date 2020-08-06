@@ -9,13 +9,20 @@
             <link>https://ciboulette.net/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 03 Aug 2020 23:41:21 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 06 Aug 2020 00:26:52 GMT</lastBuildDate>
         <atom:link href="https://ciboulette.net/blog/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 03 Aug 2020 23:41:21 GMT</pubDate>
+        <pubDate>Thu, 06 Aug 2020 00:26:52 GMT</pubDate>
         <copyright><![CDATA[All rights reserved]]></copyright>
         <language><![CDATA[fr-fr]]></language>
         <webMaster><![CDATA[renan.lecaro@ŋmail.com]]></webMaster>
         <ttl>300</ttl>
+        <item>
+            <title><![CDATA[Future éditeur de produit]]></title>
+            <description><![CDATA[Ou comment concilier la facilité d'utilisation pour les débutants et l'efficacité pour les experts]]></description>
+            <link>https://ciboulette.net/blog/2020-08-05</link>
+            <guid isPermaLink="false">2020-08-05</guid>
+            <pubDate>Wed, 05 Aug 2020 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Produits en paniers uniquement]]></title>
             <description><![CDATA[Et une petite correction dans l'admin]]></description>
