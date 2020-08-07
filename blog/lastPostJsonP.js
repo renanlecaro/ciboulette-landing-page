@@ -1,3 +1,3 @@
 
-  window.blogLastUpdated && window.blogLastUpdated({"title":"Future éditeur de produit","url":"https://ciboulette.net/blog/2020-08-05","date":"2020-08-05T00:00:00.000Z"});
+  window.blogLastUpdated && window.blogLastUpdated({"title":"L'éditeur de produit est live !","url":"https://ciboulette.net/blog/2020-08-07","date":"2020-08-07T00:00:00.000Z"});
   
