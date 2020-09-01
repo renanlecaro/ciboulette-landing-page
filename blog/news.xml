@@ -9,13 +9,20 @@
             <link>https://ciboulette.net/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 31 Aug 2020 00:38:34 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 01 Sep 2020 21:43:55 GMT</lastBuildDate>
         <atom:link href="https://ciboulette.net/blog/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 31 Aug 2020 00:38:34 GMT</pubDate>
+        <pubDate>Tue, 01 Sep 2020 21:43:55 GMT</pubDate>
         <copyright><![CDATA[All rights reserved]]></copyright>
         <language><![CDATA[fr-fr]]></language>
         <webMaster><![CDATA[renan.lecaro@ŋmail.com]]></webMaster>
         <ttl>300</ttl>
+        <item>
+            <title><![CDATA[Réouverture des inscriptions]]></title>
+            <description><![CDATA[Je ne m'attends pas à avoir beaucoup de nouveaux utilisateurs sans promotion du logiciel, mais vous pouvez de nouveau recommander le produit à vos amis.]]></description>
+            <link>https://ciboulette.net/blog/2020-09-01</link>
+            <guid isPermaLink="false">2020-09-01</guid>
+            <pubDate>Tue, 01 Sep 2020 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Paiement en ligne ? ]]></title>
             <description><![CDATA[A quel point serait-ce intéressant pour vous de pouvoir encaisser vos clients en ligne ? ]]></description>
