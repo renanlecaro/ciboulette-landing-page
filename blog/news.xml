@@ -9,13 +9,20 @@
             <link>https://ciboulette.net/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 01 Sep 2020 21:43:55 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 08 Sep 2020 22:57:07 GMT</lastBuildDate>
         <atom:link href="https://ciboulette.net/blog/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 01 Sep 2020 21:43:55 GMT</pubDate>
+        <pubDate>Tue, 08 Sep 2020 22:57:07 GMT</pubDate>
         <copyright><![CDATA[All rights reserved]]></copyright>
         <language><![CDATA[fr-fr]]></language>
         <webMaster><![CDATA[renan.lecaro@ŋmail.com]]></webMaster>
         <ttl>300</ttl>
+        <item>
+            <title><![CDATA[Simplification de l'éditeur de textes]]></title>
+            <description><![CDATA[Et une nouvelle manière d'afficher/masquer les options]]></description>
+            <link>https://ciboulette.net/blog/2020-09-08</link>
+            <guid isPermaLink="false">2020-09-08</guid>
+            <pubDate>Tue, 08 Sep 2020 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Réouverture des inscriptions]]></title>
             <description><![CDATA[Je ne m'attends pas à avoir beaucoup de nouveaux utilisateurs sans promotion du logiciel, mais vous pouvez de nouveau recommander le produit à vos amis.]]></description>
