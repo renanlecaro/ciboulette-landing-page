@@ -9,13 +9,20 @@
             <link>https://ciboulette.net/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 08 Sep 2020 22:57:07 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Sep 2020 07:58:12 GMT</lastBuildDate>
         <atom:link href="https://ciboulette.net/blog/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 08 Sep 2020 22:57:07 GMT</pubDate>
+        <pubDate>Thu, 10 Sep 2020 07:58:12 GMT</pubDate>
         <copyright><![CDATA[All rights reserved]]></copyright>
         <language><![CDATA[fr-fr]]></language>
         <webMaster><![CDATA[renan.lecaro@ŋmail.com]]></webMaster>
         <ttl>300</ttl>
+        <item>
+            <title><![CDATA[Les SMS étaient off pendant 2 jours]]></title>
+            <description><![CDATA[J'éspère que ça vous à pas trop impacté]]></description>
+            <link>https://ciboulette.net/blog/2020-09-10</link>
+            <guid isPermaLink="false">2020-09-10</guid>
+            <pubDate>Thu, 10 Sep 2020 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Simplification de l'éditeur de textes]]></title>
             <description><![CDATA[Et une nouvelle manière d'afficher/masquer les options]]></description>
