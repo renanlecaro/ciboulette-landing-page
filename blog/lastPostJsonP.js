@@ -1,3 +1,3 @@
 
-  window.blogLastUpdated && window.blogLastUpdated({"title":"Nouvelle page d'invitation de clients","url":"https://ciboulette.net/blog/2020-09-21","date":"2020-09-21T00:00:00.000Z"});
+  window.blogLastUpdated && window.blogLastUpdated({"title":"Octobre improductif","url":"https://ciboulette.net/blog/2020-10-31","date":"2020-10-31T00:00:00.000Z"});
   
