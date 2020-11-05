@@ -9,13 +9,20 @@
             <link>https://ciboulette.net/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 31 Oct 2020 05:17:39 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Nov 2020 05:22:18 GMT</lastBuildDate>
         <atom:link href="https://ciboulette.net/blog/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 31 Oct 2020 05:17:39 GMT</pubDate>
+        <pubDate>Thu, 05 Nov 2020 05:22:18 GMT</pubDate>
         <copyright><![CDATA[All rights reserved]]></copyright>
         <language><![CDATA[fr-fr]]></language>
         <webMaster><![CDATA[renan.lecaro@ŋmail.com]]></webMaster>
         <ttl>300</ttl>
+        <item>
+            <title><![CDATA[Nouvelle organisation pour les paramètres]]></title>
+            <description><![CDATA[Enfin du nouveau]]></description>
+            <link>https://ciboulette.net/blog/2020-11-05</link>
+            <guid isPermaLink="false">2020-11-05</guid>
+            <pubDate>Thu, 05 Nov 2020 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Octobre improductif]]></title>
             <description><![CDATA[Beaucoup de distractions et pas beaucoup d'avancées. ]]></description>
