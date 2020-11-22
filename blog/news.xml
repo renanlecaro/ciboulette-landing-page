@@ -9,13 +9,20 @@
             <link>https://ciboulette.net/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 13 Nov 2020 02:31:27 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 22 Nov 2020 00:33:39 GMT</lastBuildDate>
         <atom:link href="https://ciboulette.net/blog/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 13 Nov 2020 02:31:27 GMT</pubDate>
+        <pubDate>Sun, 22 Nov 2020 00:33:39 GMT</pubDate>
         <copyright><![CDATA[All rights reserved]]></copyright>
         <language><![CDATA[fr-fr]]></language>
         <webMaster><![CDATA[renan.lecaro@ŋmail.com]]></webMaster>
         <ttl>300</ttl>
+        <item>
+            <title><![CDATA[Filtre de rendez vous dans l'export des ventes]]></title>
+            <description><![CDATA[Un petit détail proposé par Le Petit Moulin]]></description>
+            <link>https://ciboulette.net/blog/2020-11-22</link>
+            <guid isPermaLink="false">2020-11-22</guid>
+            <pubDate>Sun, 22 Nov 2020 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Nouvelle fonction pour mieux vendre les courges]]></title>
             <description><![CDATA[Et petites correction de bugs]]></description>
