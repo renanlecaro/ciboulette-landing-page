@@ -1,3 +1,3 @@
 
-  window.blogLastUpdated && window.blogLastUpdated({"title":"Plus de details quand le bon de commande plante","url":"https://ciboulette.net/blog/2020-11-23","date":"2020-11-23T00:00:00.000Z"});
+  window.blogLastUpdated && window.blogLastUpdated({"title":"Importateur de produits et nouvelles","url":"https://ciboulette.net/blog/2020-12-07","date":"2020-12-07T00:00:00.000Z"});
   

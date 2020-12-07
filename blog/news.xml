@@ -9,13 +9,20 @@
             <link>https://ciboulette.net/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 23 Nov 2020 03:12:43 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Dec 2020 00:45:08 GMT</lastBuildDate>
         <atom:link href="https://ciboulette.net/blog/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 23 Nov 2020 03:12:43 GMT</pubDate>
+        <pubDate>Mon, 07 Dec 2020 00:45:08 GMT</pubDate>
         <copyright><![CDATA[All rights reserved]]></copyright>
         <language><![CDATA[fr-fr]]></language>
         <webMaster><![CDATA[renan.lecaro@ŋmail.com]]></webMaster>
         <ttl>300</ttl>
+        <item>
+            <title><![CDATA[Importateur de produits et nouvelles]]></title>
+            <description><![CDATA[Une nouvelle fonction principalement utile pour les nouveaux maraichers.]]></description>
+            <link>https://ciboulette.net/blog/2020-12-07</link>
+            <guid isPermaLink="false">2020-12-07</guid>
+            <pubDate>Mon, 07 Dec 2020 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Plus de details quand le bon de commande plante]]></title>
             <description><![CDATA[Suite aux retours concernants des plantons lors de la prise de commande]]></description>
