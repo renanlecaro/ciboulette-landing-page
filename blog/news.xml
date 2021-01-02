@@ -9,13 +9,20 @@
             <link>https://ciboulette.net/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 20 Dec 2020 06:09:33 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 02 Jan 2021 17:36:30 GMT</lastBuildDate>
         <atom:link href="https://ciboulette.net/blog/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 20 Dec 2020 06:09:33 GMT</pubDate>
+        <pubDate>Sat, 02 Jan 2021 17:36:30 GMT</pubDate>
         <copyright><![CDATA[All rights reserved]]></copyright>
         <language><![CDATA[fr-fr]]></language>
         <webMaster><![CDATA[renan.lecaro@ŋmail.com]]></webMaster>
         <ttl>300</ttl>
+        <item>
+            <title><![CDATA[Invitation à commander par SMS]]></title>
+            <description><![CDATA[Une fonction demandée par des maraichers intéressés par le système. ]]></description>
+            <link>https://ciboulette.net/blog/2021-01-02</link>
+            <guid isPermaLink="false">2021-01-02</guid>
+            <pubDate>Sat, 02 Jan 2021 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Changements à venir]]></title>
             <description><![CDATA[Mais pas encore déployés]]></description>
