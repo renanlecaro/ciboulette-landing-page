@@ -1,0 +1,32 @@
+h1 Gestion des clients belges, bugfixes, admin 
+.intro Une petite update qui devrait surtout corriger les erreurs introduites à la dernière livraison
+html
+  body
+    p Hello
+    p J&apos;ai d&eacute;ploy&eacute; quelques changements mineurs ce soir&nbsp;
+    ul
+      li
+        | A l&apos;inscription, le pays du mara&icirc;cher est demand&eacute;, pour utiliser le bon taux de tva et pr&eacute;fixe international par d&eacute;faut des num&eacute;ros de t&eacute;l&eacute;phone.
+      li
+        | Le pays peut aussi &ecirc;tre modifi&eacute; dans les param&egrave;tres, mais &ccedil;a ne changera pas le taux de tva des produits existants ou le pr&eacute;fixe des num&eacute;ros de t&eacute;l&eacute;phone existants.
+      li
+        | Le t&eacute;l&eacute;phone du mara&icirc;cher ne sera sauvegard&eacute; que s&apos;il est valide (num&eacute;ro de mobile en UE)
+      li
+        | Apr&egrave;s des vacances de plusieurs semaines, vous pouvez maintenant directement copier la derni&egrave;re semaine active vers la semaine en cours. Les semaines &quot;entre les deux&quot; seront d&eacute;sactiv&eacute;es et ignor&eacute;es.
+    p Et r&eacute;solu quelques bugs
+    ul
+      li Possibilit&eacute; de mettre un chiffre &agrave; virgule dans le montant d&apos;un virement
+      li
+        | Le label &quot;raison du virement&quot; n&apos;est plus pr&eacute;rempli avec la derni&egrave;re valeur ajout&eacute;e, parce que &ccedil;a cr&eacute;ait de la confusion
+      li Le petit texte d&apos;aide pour expliquer le clic droit &agrave; &eacute;t&eacute; simplifi&eacute;
+      li
+        | La liste des semaines (&agrave; gauche de l&apos;&eacute;cran) n&apos;affichait pas toutes les semaines du mara&icirc;cher (la premi&egrave;re manquait souvent)
+      li
+        | L&apos;inscription via le lien d&apos;inscription secret affichait un message d&apos;erreur s&apos;il y avait une majuscule dans l&apos;adresse e-mail.
+    p
+      | Je me suis aussi cr&eacute;e une interface d&apos;administration basique, avec quelques &eacute;crans, comme celui ci qui me montre l&apos;activit&eacute; dans l&apos;appli au cours de la semaine. &Ccedil;a me permet d&apos;&eacute;viter de faire un d&eacute;ploiement au milieu de votre mailing par exemple. Vous devriez reconna&icirc;tre votre propre cr&eacute;neau d&apos;envoi si mon tableau fonctionne bien.
+    p
+      | L&apos;admin me permet aussi de rapidement modifier vos profils, pour par exemple corriger votre num&eacute;ro de t&eacute;l&eacute;phone (s&apos;il n&apos;est pas au format international) et votre pays.
+    p Les chiffre &eacute;lev&eacute;s sur fond rouge sont les p&eacute;riodes avec beaucoup d&apos;activit&eacute;.
+    p
+      img.fr-dib.fr-fil(src='/blog/imgs/051ffac1b6d79525d84e824067f8b0c2ed62b0eb.jpg')
