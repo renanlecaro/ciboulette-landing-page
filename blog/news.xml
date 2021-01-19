@@ -9,13 +9,20 @@
             <link>https://ciboulette.net/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 19 Jan 2021 14:13:51 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 19 Jan 2021 19:58:08 GMT</lastBuildDate>
         <atom:link href="https://ciboulette.net/blog/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 19 Jan 2021 14:13:51 GMT</pubDate>
+        <pubDate>Tue, 19 Jan 2021 19:58:08 GMT</pubDate>
         <copyright><![CDATA[All rights reserved]]></copyright>
         <language><![CDATA[fr-fr]]></language>
         <webMaster><![CDATA[renan.lecaro@ŋmail.com]]></webMaster>
         <ttl>300</ttl>
+        <item>
+            <title><![CDATA[Masquer des produits pour certains RDVs]]></title>
+            <description><![CDATA[Une nouvelle fonction + des détails]]></description>
+            <link>https://ciboulette.net/blog/2021-01-19</link>
+            <guid isPermaLink="false">2021-01-19</guid>
+            <pubDate>Tue, 19 Jan 2021 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Gestion des clients belges, bugfixes, admin ]]></title>
             <description><![CDATA[Une petite update qui devrait surtout corriger les erreurs introduites à la dernière livraison]]></description>
