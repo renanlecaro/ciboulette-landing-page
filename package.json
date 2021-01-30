@@ -1,11 +1,11 @@
 {
-  "name": "cyberlegume-landing-page",
+  "name": "ciboulette-landing-page",
   "version": "1.0.0",
-  "description": "Landing page for the cyberlegu.me app",
+  "description": "Landing page for the ciboulette.net app",
   "main": "index.html",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/renanlecaro/cyberlegume-landing-page.git"
+    "url": "git+https://github.com/renanlecaro/ciboulette-landing-page.git"
   },
   "author": "Renan LE CARO",
   "license": "UNLICENSED",
@@ -13,14 +13,14 @@
     "url": "https://github.com/renanlecaro/cyberlegume-landing-page/issues"
   },
   "scripts": {
-    "start": "npm-run-parallel generate_pages generate_less serve blog blog_editor",
-    "generate_pages": "pug  *.pug --watch --silent",
-    "generate_less": "autoless styles",
-    "serve": "http-server",
-    "blog": "nodemon --exitcrash --watch blog/blogEngine.js  blog/blogEngine.js",
-    "blog_editor": "nodemon --exitcrash --watch blog/blogEditorServer.js blog/blogEditorServer.js"
+    "start": "run-p dev:*",
+    "dev:pug": "pug  *.pug --watch --silent",
+    "dev:less": "autoless styles",
+    "dev:serve": "http-server",
+    "dev:blog": "nodemon --watch blog/blogEngine.js  blog/blogEngine.js",
+    "dev:editor": "nodemon --watch blog/blogEditorServer.js blog/blogEditorServer.js"
   },
-  "homepage": "https://cyberlegu.me",
+  "homepage": "https://ciboulette.net",
   "devDependencies": {
     "pug-cli": "*",
     "http-server": "*"
@@ -35,7 +35,7 @@
     "http-server": "^0.11.1",
     "node-watch": "^0.5.7",
     "nodemon": "^1.17.0",
-    "npm-run-parallel": "^0.6.0",
+    "npm-run-all": "^4.1.5",
     "pug": "^2.0.1",
     "pug-cli": "^1.0.0-alpha6",
     "rss": "^1.2.2",
