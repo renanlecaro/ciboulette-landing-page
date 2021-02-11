@@ -9,13 +9,20 @@
             <link>https://ciboulette.net/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 30 Jan 2021 16:42:18 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Feb 2021 18:23:21 GMT</lastBuildDate>
         <atom:link href="https://ciboulette.net/blog/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 30 Jan 2021 16:42:18 GMT</pubDate>
+        <pubDate>Thu, 11 Feb 2021 18:23:21 GMT</pubDate>
         <copyright><![CDATA[All rights reserved]]></copyright>
         <language><![CDATA[fr-fr]]></language>
         <webMaster><![CDATA[renan.lecaro@ŋmail.com]]></webMaster>
         <ttl>300</ttl>
+        <item>
+            <title><![CDATA[Changements à venir (emails, formulaire de commande, gestion des stocks)]]></title>
+            <description><![CDATA[Vous pouvez tester les changements qui seront déployés ce weekend en avance pour me dire s'il y a un problème]]></description>
+            <link>https://ciboulette.net/blog/2021-02-11</link>
+            <guid isPermaLink="false">2021-02-11</guid>
+            <pubDate>Thu, 11 Feb 2021 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Aidez ciboulette à se développer]]></title>
             <description><![CDATA[C'est la saison du marketing pour ciboulette]]></description>
