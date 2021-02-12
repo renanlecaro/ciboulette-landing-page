@@ -9,13 +9,20 @@
             <link>https://ciboulette.net/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 11 Feb 2021 18:23:21 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 12 Feb 2021 21:00:17 GMT</lastBuildDate>
         <atom:link href="https://ciboulette.net/blog/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 11 Feb 2021 18:23:21 GMT</pubDate>
+        <pubDate>Fri, 12 Feb 2021 21:00:17 GMT</pubDate>
         <copyright><![CDATA[All rights reserved]]></copyright>
         <language><![CDATA[fr-fr]]></language>
         <webMaster><![CDATA[renan.lecaro@ŋmail.com]]></webMaster>
         <ttl>300</ttl>
+        <item>
+            <title><![CDATA[Changements déployés]]></title>
+            <description><![CDATA[Nouvelle interface pour vos clients, page stocks, nouvel éditeur de textes ..]]></description>
+            <link>https://ciboulette.net/blog/2021-02-12</link>
+            <guid isPermaLink="false">2021-02-12</guid>
+            <pubDate>Fri, 12 Feb 2021 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Changements à venir (emails, formulaire de commande, gestion des stocks)]]></title>
             <description><![CDATA[Vous pouvez tester les changements qui seront déployés ce weekend en avance pour me dire s'il y a un problème]]></description>
