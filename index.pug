@@ -5,8 +5,7 @@ include mixins
     .slide: .wrapper.centerOnSmallScreen
         h1 Prise de commandes automatique
         .img
-          //- img(src!='').upScale#startVideo
-          div(style="position: relative; padding-top: 56.25%;width:100%; background:url(./svg/app_mock.min.svg) no-repeat center;")
+          div(style="position: relative; padding-top: 56.25%;width:100%; background:url(./svg/app_mock.min.svg) no-repeat center; background-size: contain;")
             iframe(src="https://iframe.videodelivery.net/1c760984ddb46efbbd4338589d8eda03?preload=true" style="border: none; position: absolute; top: 0; height: 100%; width: 100%;"  allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true")
         
         ul.check
