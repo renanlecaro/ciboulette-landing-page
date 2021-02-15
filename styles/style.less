@@ -5,8 +5,7 @@
 @tablet: 1030px;
 @desktop:1200px;
 @desktop_grid:60px;
-
-@import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto&display=swap');
+ 
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -19,8 +18,7 @@ body {
   }
 }
 
-h1,h2,.appName{
-  font-family: 'Pacifico', cursive;
+h1,h2,.appName{ 
   text-transform: none;
   font-weight: normal;
 }
@@ -239,9 +237,9 @@ nav#topMenu {
     padding: 0 30px;
     line-height: 58px;
     color: #333;
-    &:not(.appName){
-      text-transform: uppercase;
-    }
+    // &:not(.appName){
+    //   text-transform: uppercase;
+    // }
     font-weight: bold;
     box-sizing:border-box;
     @media (min-width: @tablet) {
@@ -249,15 +247,16 @@ nav#topMenu {
       text-align: center;
     }
     &:hover, &.isCurrentPage {
-      color: @green;
+      background:white;
     }
 
   }
   .grow {
     flex-grow: 1;
   }
-  border-bottom:1px solid #eee;
-  box-shadow: 0 5px 5px rgba(0,0,0,0.03);
+  background:#f4f4f4;
+  // border-bottom:1px solid #eee;
+  // box-shadow: 0 5px 5px rgba(0,0,0,0.03);
 }
 
 @media (min-width: @tablet) {
@@ -361,6 +360,34 @@ nav#topMenu {
     img{
       max-width: 100%;
       margin: 20px 0;
+      display: block;
+    }
+}
+
+#video-modale {
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    bottom: 40px;
+    z-index: 20;
+    box-shadow: 0 0 40px;
+    padding:40px;
+    background:#333;
+    button.close-modal{
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: none;
+      color: white;
+      font: inherit;
+      line-height: inherit;
+      border: none;
+      padding: 0 20px;
+      line-height: 40px;
+    }
+    display: none;
+    &.show{
       display: block;
     }
 }
