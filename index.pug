@@ -4,7 +4,7 @@ include mixins
  
     .slide: .wrapper.centerOnSmallScreen
         h1 Prise de commandes automatique
-        .img
+        a.img(target="_blank" href="https://youtu.be/jBNuWAHiPU4")
           div(style="position: relative; padding-top: 56.25%;width:100%; background:url(./svg/app_mock.min.svg) no-repeat center; background-size: contain;")
 
         ul.check
@@ -18,15 +18,20 @@ include mixins
     .slide: .wrapper
         h2 Simple
         .img: img(src!='./svg/simple.min.svg').upScale
-        p Indiquez juste vos produits, clients et rendez-vous.
-        p Mettez à jours ces listes la semaine suivante.
-        a.button.outline(href="/premiere_vente.html") Tutoriels
+        p Indiquez juste vos produits, rendez-vous et clients.
+        p Mettez à jours ces listes la semaine suivante. 
+        p  
+          a(target="_blank" href="https://youtu.be/jBNuWAHiPU4") La vidéo de prise en main
+          |  fait à peine deux minutes . 
 
     .slide: .wrapper
         h2 Complet
         .img: img(src!='./svg/full.min.svg').upScale
         p Avec des années de fonctionnement, le logiciel est déjà adapté à votre façon de travailler jusqu'aux détails.
-        a.button.outline(href="/fonctions.html") Fonctions
+        p Les 
+          a(href="/fonctions.html") nombreuses fonctions
+          |  sont listées et explquées sur la page dédiée
+         
 
 
     .slide: .wrapper
@@ -34,8 +39,13 @@ include mixins
         .img.touchLeft: img(src!='./svg/evolutif.min.svg').upScale
         p Nous sommes à votre écoute pour implémenter les fonctions qui vous manquent.
         p ciboulette.net s'est construit sur les bonnes idées de ses clients, on attend les vôtres.
-        p Les progrès sont reportés dans le blog
-        a.button.outline(href="/blog") Blog
+        p 
+          | Les fonctions à venir sont discutées sur un 
+          a(target="_blank" href="https://trello.com/b/GaZSJzzq/ciboulettenet-roadmap") tableau trello
+          |  et une fois qu'elles sont implémentées elles sont annoncées sur 
+          a(href="/blog") le blog
+          | .
+        
  
     .slide: .wrapper
         h2 Vos clients vont adorer

@@ -59,7 +59,31 @@ h1,h2,.appName{
     }
 
      > .img {
-
+      &[target]{
+        &:before {
+        content:"";
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        background-image:url("/svg/play.svg");
+        background-size:60px;
+        background-repeat:no-repeat;
+        background-position:center;
+        z-index: 10;
+        opacity: 0.3;      
+        } 
+        &:hover:before{
+          opacity: 0.5;
+          background-color: white;
+          
+        }
+  
+      } 
+      position:relative;
       display: flex;
       align-items: center;
       justify-content: center;
