@@ -9,13 +9,20 @@
             <link>https://ciboulette.net/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 27 Feb 2021 09:50:53 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Feb 2021 08:56:42 GMT</lastBuildDate>
         <atom:link href="https://ciboulette.net/blog/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 27 Feb 2021 09:50:53 GMT</pubDate>
+        <pubDate>Sun, 28 Feb 2021 08:56:42 GMT</pubDate>
         <copyright><![CDATA[All rights reserved]]></copyright>
         <language><![CDATA[fr-fr]]></language>
         <webMaster><![CDATA[renan.lecaro@ŋmail.com]]></webMaster>
         <ttl>300</ttl>
+        <item>
+            <title><![CDATA[Prix aux 100g, faq sur le site]]></title>
+            <description><![CDATA[Un affichage plus doux pour les produits à 9+ euros / kg]]></description>
+            <link>https://ciboulette.net/blog/2021-02-28</link>
+            <guid isPermaLink="false">2021-02-28</guid>
+            <pubDate>Sun, 28 Feb 2021 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Option "Panier obligatoire" et autres améliorations.]]></title>
             <description><![CDATA[Pas mal de petits changements et quelques gros.]]></description>
