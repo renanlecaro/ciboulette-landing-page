@@ -6,7 +6,6 @@ include ../mixins
         h3=blogItem.title 
         p=blogItem.intro
         
-        p.blog-link-and-date
-          a(href="/blog/"+blogItem.date+".html") Lire l'article
-          span=blogItem.date
+        a(href="/blog/"+blogItem.date+".html") Lire l'article
+        .detail=blogItem.date
         

@@ -18,7 +18,8 @@
     "dev:less": "autoless styles",
     "dev:serve": "http-server",
     "dev:blog": "nodemon --watch blog/blogEngine.js  blog/blogEngine.js",
-    "dev:editor": "nodemon --watch blog/blogEditorServer.js blog/blogEditorServer.js"
+    "dev:editor": "nodemon --watch blog/blogEditorServer.js blog/blogEditorServer.js",
+    "build:svgs":"bash ./minify_svgs.sh"
   },
   "homepage": "https://ciboulette.net",
   "devDependencies": {

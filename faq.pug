@@ -1,0 +1,60 @@
+include mixins
++page("FAQ","Les résponses à toutes vos questions sur ciboulette.net")
+  .grid#faq
+    .grid-item
+      h3 Est ce que mes clients peuvent payer en ligne ?
+      p Pas encore, ça devrait être implémenté en 2021. 
+    .grid-item
+      h3 Est ce que je peux vendre des paniers prédéfinis ? 
+      p Oui, avec gestion de stocks des produits mis dedans.
+
+    .grid-item
+      h3 Je souhaite inviter mes clients par SMS, c'est possible ? 
+      p Oui, vous pouvez les inviter chaque semaine par SMS, et ils peuvent choisir d'être invité par mail à la place s'ils indiquent (eux même) leur adresse email.
+
+
+    .grid-item
+      h3 Est ce que mes clients peuvent commander sur mobile ?
+      p Oui, le formulaire charge rapidement et est parfaitement adapté à un usage mobile. 
+
+    .grid-item
+      h3 Est ce que je peux administrer mes ventes depuis un téléphone ?
+      p Oui, l'application est utilisable sur mobile via votre navigateur web. 
+           
+    .grid-item
+      h3 Est ce que je peux utiliser ciboulette pour vendre du pain, des produits laitiers, de la viande ..
+      p Oui, mais les clients risquent de se lasser des mailings hebdomadaires s'ils proposent toujours les mêmes produits. 
+
+    .grid-item
+      h3 Combien ça coûte ? 
+      p 25 €/mois (facturé par année complète) 
+
+    .grid-item
+      h3 Je peux vendre par livraison à domicile ? 
+      p Oui, créez un RDV "livraison" et spécifiez aux clients d'ajouter leur adresse en commentaire. Vous pouvez ajouter les frais de livraison en "divers" dans la facture. 
+
+    .grid-item
+      h3 Est-ce adapté pour un groupement de producteurs ? 
+      p Pas vraiment, le but de ciboulette.net est de vous permettre de vendre en autonomie. L'absence des fonctions de gestion de multiples producteurs simplifie notre programme. 
+      
+    .grid-item
+      h3 Est-ce que je peux faire des prix différents par RVS ? 
+      p Ca peut se bricoler, créez deux fois le produit avec un prix différents puis désactivez un des deux pour chaque RDV. Ce n'est pas idéal parce que les produits auront deux stocks séparés.
+
+    .grid-item
+      h3 Je n'ai pas toujours tous les produits commandés, c'est géré ? 
+      p Oui, vous pouvez indiquer une quantité livrée différente de la quantité commandée. 
+      
+    .grid-item
+      h3 Mes mails d'invitation arrivent en spam, que faire  ? 
+      p Retirez les clients inactifs, écrivez un texte chaque semaine, connectez votre gmail, dites à vos clients (par sms) d'ajouter votre adresse mail en contact.
+
+    .grid-item
+      h3 Mes clients sont sur facebook, je peux les inviter par messenger ? 
+      p Non, les frais de communication messenger pour les clients pros sont trop élevés. Vous pouvez leur envoyer un lien qui leur permettera de s'inscrire en 1 minute. 
+    
+
+  .slide: .wrapper 
+      h2 La réponse à votre question n'est pas ici ? 
+      .img: img(src!='./svg/question.min.svg').upScale
+      p Vous pouvez la poser par email (renan.lecaro@gmail.com) ou par tel (+33 6 28 35 01 14). 

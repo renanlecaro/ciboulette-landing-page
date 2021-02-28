@@ -1,3 +1,4 @@
+cd svg
 #!/bin/bash
 for f in *.svg; do
     if [[ "$f" != *\.min\.svg ]]
@@ -6,3 +7,4 @@ for f in *.svg; do
       svgo -i "${f%.svg}.min.svg"
     fi
 done
+cd ..
