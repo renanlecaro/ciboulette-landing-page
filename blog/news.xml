@@ -9,13 +9,20 @@
             <link>https://ciboulette.net/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 05 Mar 2021 20:46:09 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 06 Mar 2021 11:53:14 GMT</lastBuildDate>
         <atom:link href="https://ciboulette.net/blog/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 05 Mar 2021 20:46:09 GMT</pubDate>
+        <pubDate>Sat, 06 Mar 2021 11:53:14 GMT</pubDate>
         <copyright><![CDATA[All rights reserved]]></copyright>
         <language><![CDATA[fr-fr]]></language>
         <webMaster><![CDATA[renan.lecaro@ŋmail.com]]></webMaster>
         <ttl>300</ttl>
+        <item>
+            <title><![CDATA[Recettes automatiques, frais de livraison]]></title>
+            <description><![CDATA[Et plein de petites corrections]]></description>
+            <link>https://ciboulette.net/blog/2021-03-06</link>
+            <guid isPermaLink="false">2021-03-06</guid>
+            <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Prix aux 100g, faq sur le site]]></title>
             <description><![CDATA[Un affichage plus doux pour les produits à 9+ euros / kg]]></description>
