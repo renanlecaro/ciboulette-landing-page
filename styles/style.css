@@ -280,45 +280,46 @@ nav#topMenu .grow {
   }
 }
 .footer {
-  padding: 2em;
-  margin: 0;
-  background: #eee;
-  text-align: center;
-  position: relative;
+  padding: 40px;
+  display: grid;
+  column-gap: 40px;
+  row-gap: 40px;
+  grid-template-columns: 1fr;
+  justify-content: space-around;
+  background: #f4f4f4;
+  color: #333;
+  align-items: start;
 }
-.footer .part {
-  display: inline-block;
-  padding: 0.5em;
+@media (min-width: 800px) {
+  .footer {
+    grid-template-columns: 300px 300px ;
+  }
 }
-.footer .part a {
-  margin: 0 5px;
+@media (min-width: 1200px) {
+  .footer {
+    grid-template-columns: 300px 300px 300px ;
+  }
+}
+.footer > .part {
+  display: grid;
+  column-gap: 20px;
+  row-gap: 40px;
+}
+@media (min-width: 350px) {
+  .footer > .part {
+    grid-template-columns: auto 1fr;
+  }
+}
+.footer > .part > strong,
+.footer > .part > a {
+  grid-column:  1 / -1;
+}
+.footer > .part a {
   color: inherit;
+  text-decoration: underline;
 }
-.footer form {
-  max-width: 800px;
-  margin: 2em auto;
-  display: flex;
-  padding: 1em;
-}
-.footer form > * {
-  font-size: 16px;
-}
-.footer form #email {
-  height: 3em;
-  line-height: 3em;
-  border: 1px solid #AAA;
-  flex-grow: 1;
-  padding: 0 1em;
-  background: white;
-  margin-right: 1em;
-  border-radius: 0.5em;
-}
-.footer form #send {
-  border-radius: 0.5em;
-  padding: 0 1em;
-  margin: 0;
-  height: 3em;
-  line-height: 3em;
+.footer > .part a:visited {
+  color: #000000;
 }
 .grid {
   display: grid;

@@ -299,46 +299,42 @@ nav#topMenu {
 }
 
 .footer {
-  padding:2em;
-  margin: 0;
-  background:#eee;
-  text-align: center;
-  .part {
-    display: inline-block;
-    padding: 0.5em;
-    a {
-      margin: 0 5px;
-      color: inherit;
-    }
-  }
-  position: relative;
-  form {
-    max-width:800px;
-    margin:2em auto;
-    display: flex;
-    padding: 1em;
-    >*{
-      font-size:16px;
-    }
-    #email{
 
-      height: 3em;
-      line-height: 3em;
-      border: 1px solid #AAA;
-      flex-grow: 1;
-      padding: 0 1em;
-      background: white;
-      margin-right: 1em;
-      border-radius:0.5em;
-    }
-    #send{
-      border-radius:0.5em;
-      padding: 0 1em;
-      margin:0;
-      height: 3em;
-      line-height: 3em;
+  padding:40px;
+  display: grid;
+  column-gap: 40px;
+  row-gap: 40px;
+  grid-template-columns: 1fr;
+  @media(min-width: 800px){
+    
+    grid-template-columns: 300px 300px ;
+  }
+  @media(min-width: 1200px){
+    grid-template-columns:300px 300px 300px ;
+  }
+  justify-content: space-around;
+ background: #f4f4f4;
+ color:#333;align-items: start;
+ >.part{
+   
+    display: grid;
+  @media(min-width: 350px){
+    grid-template-columns: auto 1fr;
+  }
+    column-gap: 20px;
+    row-gap: 40px;
+    >strong, >a{
+      grid-column: ~' 1 / -1';
+    } 
+  a{
+    color: inherit;
+    text-decoration: underline;
+    &:visited{
+      color: black
     }
   }
+
+ }
 }
 
 
@@ -355,8 +351,6 @@ nav#topMenu {
 
     h3{
       font-size: bold;
-      // text-transform: uppercase;
-      // font-size: 0.9em;
       color: #333;
     }
     >p{

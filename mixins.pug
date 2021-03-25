@@ -33,15 +33,42 @@ mixin page(title, description)
             .footer
  
               .part
-                a(href="mailto:renan.lecaro@gmail.com") renan.lecaro@gmail.com
+                strong Coordonnées
+
+                .k Nom
+                .v Renan LE CARO
+
+                .k E-mail
+                .v: a(href="mailto:renan.lecaro@gmail.com") renan.lecaro@gmail.com
+
+                .k Teléphone
+                .v: a(href="tel:+33628350114") 06 28 35 01 14
+                .k Adresse 
+                .v 
+                  | La Basse Bouexière n°9
+                  br
+                  | 35360 Médréac 
               .part
+                strong Entreprise 
+                .k Société
+                .v: a(target="_blank" href="https://www.societe.com/societe/monsieur-renan-le-caro-515320331.html") 
+                  | Auto Entreprise 
+                  br
+                  | Renan LE CARO 
+
+                .k SIRET
+                .v 51532033100025 
+                .k TVA
+                .v FR 31 515320331  
+
+              .part
+                strong Autres liens
+                a(target="_blank" href="https://www.facebook.com/ciboulette.net/") Facebook
+                a(target="_blank" href="https://trello.com/b/GaZSJzzq/ciboulettenet-roadmap") Dévelopement
+                a(target="_blank" href="https://uptime.ciboulette.net/") Status du site
+                a(target="_blank" href="https://fr.trustpilot.com/review/ciboulette.net") Trustpilot
                 a(href="/cgu.html") Conditions générales
-              .part
-                a(target="_blank" href="https://trello.com/b/GaZSJzzq/ciboulettenet-roadmap") Planning des améliorations
-              .part
-                a(target="_blank" href="https://uptime.ciboulette.net/") Historique de connectivité du site
-
-
+                
             script(src="/scripts.js")
             script(async defer data-domain="ciboulette.net" src="https://stats.ciboulette.net/js/plausible.js")
 
