@@ -9,13 +9,19 @@
             <link>https://ciboulette.net/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 25 Mar 2021 11:27:03 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 Mar 2021 13:49:43 GMT</lastBuildDate>
         <atom:link href="https://ciboulette.net/blog/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 25 Mar 2021 11:27:03 GMT</pubDate>
+        <pubDate>Tue, 30 Mar 2021 13:49:43 GMT</pubDate>
         <copyright><![CDATA[All rights reserved]]></copyright>
         <language><![CDATA[fr-fr]]></language>
         <webMaster><![CDATA[renan.lecaro@ŋmail.com]]></webMaster>
         <ttl>300</ttl>
+        <item>
+            <title><![CDATA[Calculs plus rapides, sms plus fiables, tests automatisés, déploiement simplifiés ..]]></title>
+            <link>https://ciboulette.net/blog/2021-03-30</link>
+            <guid isPermaLink="false">2021-03-30</guid>
+            <pubDate>Tue, 30 Mar 2021 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Evitez les images dans les mails pour l'instant]]></title>
             <description><![CDATA[Ca a l'air de pas pair aux filtres anti spam]]></description>
