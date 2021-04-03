@@ -347,7 +347,7 @@ nav#topMenu .grow {
   row-gap: 40px;
 }
 @media (min-width: 350px) {
-  .footer > .part {
+  .footer > .part.gridded {
     grid-template-columns: auto 1fr;
   }
 }

@@ -317,16 +317,19 @@ nav#topMenu {
  background: #f4f4f4;
  color:#333;align-items: start;
  >.part{
-   
-    display: grid;
-  @media(min-width: 350px){
-    grid-template-columns: auto 1fr;
+  display: grid;
+    &.gridded{
+     @media(min-width: 350px){
+      grid-template-columns: auto 1fr;
+      }
+    }
+  column-gap: 20px;
+  row-gap: 40px;
+  >strong, >a{
+    grid-column: ~' 1 / -1';
   }
-    column-gap: 20px;
-    row-gap: 40px;
-    >strong, >a{
-      grid-column: ~' 1 / -1';
-    } 
+ 
+     
   a{
     color: inherit;
     text-decoration: underline;

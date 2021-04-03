@@ -33,7 +33,7 @@ mixin page(title, description)
               label(for="toggleMenu").toggleMenu Menu
             .footer
  
-              .part
+              .part.gridded
                 strong Coordonnées
 
                 .k Nom
@@ -49,7 +49,7 @@ mixin page(title, description)
                   | La Basse Bouexière n°9
                   br
                   | 35360 Médréac 
-              .part
+              .part.gridded
                 strong Entreprise 
                 .k Société
                 .v: a(target="_blank" href="https://www.societe.com/societe/monsieur-renan-le-caro-515320331.html") 
@@ -61,15 +61,26 @@ mixin page(title, description)
                 .v 51532033100025 
                 .k TVA
                 .v FR 31 515320331  
+                .k CGU
+                .v: a(href="/cgu.html") Conditions générales
 
               .part
                 strong Autres liens
-                a(target="_blank" href="https://www.facebook.com/ciboulette.net/") Facebook
-                a(target="_blank" href="https://trello.com/b/GaZSJzzq/ciboulettenet-roadmap") Trello
-                a(target="_blank" href="https://uptime.ciboulette.net/") Statuscake
-                a(target="_blank" href="https://fr.trustpilot.com/review/ciboulette.net") Trustpilot
-                a(href="/cgu.html") Conditions générales
-                
+                div
+                  a(target="_blank" href="https://www.facebook.com/ciboulette.net/") Facebook
+                  | &nbsp;: page officielle
+                div
+                  a(target="_blank" href="https://trello.com/b/GaZSJzzq/ciboulettenet-roadmap") Trello
+                  | &nbsp;: évolutions prévues
+                div 
+                  a(target="_blank" href="https://uptime.ciboulette.net/") Statuscake
+                  | &nbsp;: historique maintenances
+                div
+                  a(target="_blank" href="https://fr.trustpilot.com/review/ciboulette.net") Trustpilot
+                  | &nbsp;: avis clients
+                div
+                  a(target="_blank" href="https://plausible.io/ciboulette.net") Plausible
+                  | &nbsp;: Statistiques de ce site
             script(src="/scripts.js")
             script.
               window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }
