@@ -84,12 +84,7 @@ h1,h2,.appName{
         max-width: 600px;
         margin-left:auto;
         margin-right:auto; 
-      }
-      a.button,
-      h1,h2{
-        // text-align: center;
-        // align-self: center;
-      }
+      } 
     }
      > .img {
       &[target]{
@@ -282,7 +277,13 @@ nav#topMenu {
     &:hover, &.isCurrentPage {
       background:white;
     }
-
+    &.signUp{
+      .button;
+      padding: 0 1em;
+      line-height: 38px;
+      align-self: center;
+      margin: 0 10px;
+    }
   }
   .grow {
     flex-grow: 1;

@@ -29,6 +29,7 @@ mixin page(title, description)
               a(href="/blog/") Blog
               .grow
               a(target="_blank" href="https://app.ciboulette.net") Connexion
+              a(target="_blank" href="https://app.ciboulette.net" onClick="plausible('signup')").signUp Inscription
               label(for="toggleMenu").toggleMenu Menu
             .footer
  
@@ -42,7 +43,7 @@ mixin page(title, description)
                 .v: a(href="mailto:renan.lecaro@gmail.com") renan.lecaro@gmail.com
 
                 .k Teléphone
-                .v: a(href="tel:+33628350114") 06 28 35 01 14
+                .v: a(href="tel:+33628350114") +33 6 28 35 01 14
                 .k Adresse 
                 .v 
                   | La Basse Bouexière n°9
@@ -64,11 +65,13 @@ mixin page(title, description)
               .part
                 strong Autres liens
                 a(target="_blank" href="https://www.facebook.com/ciboulette.net/") Facebook
-                a(target="_blank" href="https://trello.com/b/GaZSJzzq/ciboulettenet-roadmap") Dévelopement
-                a(target="_blank" href="https://uptime.ciboulette.net/") Status du site
+                a(target="_blank" href="https://trello.com/b/GaZSJzzq/ciboulettenet-roadmap") Trello
+                a(target="_blank" href="https://uptime.ciboulette.net/") Statuscake
                 a(target="_blank" href="https://fr.trustpilot.com/review/ciboulette.net") Trustpilot
                 a(href="/cgu.html") Conditions générales
                 
             script(src="/scripts.js")
+            script.
+              window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }
             script(async defer data-domain="ciboulette.net" src="https://stats.ciboulette.net/js/plausible.js")
 

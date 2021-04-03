@@ -271,6 +271,47 @@ nav#topMenu a:hover,
 nav#topMenu a.isCurrentPage {
   background: white;
 }
+nav#topMenu a.signUp {
+  display: inline-block;
+  background: #88aa02;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  border: none;
+  padding: 1em;
+  margin: 0.5em 0;
+  font-size: inherit;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 3px;
+  box-shadow: 0 2px 0 #678200;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.21);
+  padding: 0 1em;
+  line-height: 38px;
+  align-self: center;
+  margin: 0 10px;
+}
+nav#topMenu a.signUp:hover,
+nav#topMenu a.signUp:focus {
+  background-color: #749102;
+}
+nav#topMenu a.signUp:active {
+  box-shadow: 0 0px 0 #678200;
+  transform: translate(0, 2px);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+nav#topMenu a.signUp.outline {
+  background: white;
+  color: #88aa02;
+  border: 2px solid;
+  text-shadow: none;
+  box-shadow: none;
+}
+nav#topMenu a.signUp.outline:hover,
+nav#topMenu a.signUp.outline:focus {
+  color: #607801;
+}
 nav#topMenu .grow {
   flex-grow: 1;
 }
