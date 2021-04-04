@@ -9,13 +9,20 @@
             <link>https://ciboulette.net/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 03 Apr 2021 22:44:30 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 04 Apr 2021 21:51:42 GMT</lastBuildDate>
         <atom:link href="https://ciboulette.net/blog/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 03 Apr 2021 22:44:30 GMT</pubDate>
+        <pubDate>Sun, 04 Apr 2021 21:51:42 GMT</pubDate>
         <copyright><![CDATA[All rights reserved]]></copyright>
         <language><![CDATA[fr-fr]]></language>
         <webMaster><![CDATA[renan.lecaro@ŋmail.com]]></webMaster>
         <ttl>300</ttl>
+        <item>
+            <title><![CDATA[Compatibilité iphone, bugfixes]]></title>
+            <description><![CDATA[Petites correction après  la dernière grosse mise à jour]]></description>
+            <link>https://ciboulette.net/blog/2021-04-04</link>
+            <guid isPermaLink="false">2021-04-04</guid>
+            <pubDate>Sun, 04 Apr 2021 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Calculs plus rapides, sms plus fiables, tests automatisés, déploiement simplifiés ..]]></title>
             <link>https://ciboulette.net/blog/2021-03-30</link>
