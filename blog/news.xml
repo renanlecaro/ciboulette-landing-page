@@ -9,13 +9,20 @@
             <link>https://ciboulette.net/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 06 Apr 2021 22:16:43 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 18 Apr 2021 09:51:27 GMT</lastBuildDate>
         <atom:link href="https://ciboulette.net/blog/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 06 Apr 2021 22:16:43 GMT</pubDate>
+        <pubDate>Sun, 18 Apr 2021 09:51:27 GMT</pubDate>
         <copyright><![CDATA[All rights reserved]]></copyright>
         <language><![CDATA[fr-fr]]></language>
         <webMaster><![CDATA[renan.lecaro@ŋmail.com]]></webMaster>
         <ttl>300</ttl>
+        <item>
+            <title><![CDATA[Retrait de la fonction "clients VIP"  ?]]></title>
+            <description><![CDATA[Est ce que ça vous va si je la remplace par un envoi personne / personne ?]]></description>
+            <link>https://ciboulette.net/blog/2021-04-18</link>
+            <guid isPermaLink="false">2021-04-18</guid>
+            <pubDate>Sun, 18 Apr 2021 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Corrections de petits bugs]]></title>
             <description><![CDATA[J'essaie de déployer plus souvent]]></description>
