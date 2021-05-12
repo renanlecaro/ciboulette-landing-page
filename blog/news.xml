@@ -9,13 +9,20 @@
             <link>https://ciboulette.net/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 08 May 2021 15:45:47 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 12 May 2021 23:49:30 GMT</lastBuildDate>
         <atom:link href="https://ciboulette.net/blog/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 08 May 2021 15:45:47 GMT</pubDate>
+        <pubDate>Wed, 12 May 2021 23:49:30 GMT</pubDate>
         <copyright><![CDATA[All rights reserved]]></copyright>
         <language><![CDATA[fr-fr]]></language>
         <webMaster><![CDATA[renan.lecaro@ŋmail.com]]></webMaster>
         <ttl>300</ttl>
+        <item>
+            <title><![CDATA[Déployé : plusieurs commandes par client]]></title>
+            <description><![CDATA[Après presque un mois de développement]]></description>
+            <link>https://ciboulette.net/blog/2021-05-12</link>
+            <guid isPermaLink="false">2021-05-12</guid>
+            <pubDate>Wed, 12 May 2021 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Changements à venir]]></title>
             <description><![CDATA[J'ai fait un changement de fond (possibilité d'avoir plusieurs commandes par client par semaine) et beaucoup de changements de forme, c'est pas encore prêt mais voici un petit avant gout. ]]></description>
