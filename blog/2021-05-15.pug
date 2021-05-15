@@ -1,0 +1,21 @@
+h1 Petits correctifs suite à la dernière livraison 
+.intro Une dizaine de petits bugs ont été corrigés
+html
+  body
+    p Hello
+    p
+      | Le d&eacute;ploiement pr&eacute;c&eacute;dent s&apos;est plut&ocirc;t bien pass&eacute;, il n&apos;y avait pas de probl&egrave;me majeur, juste des probl&egrave;mes &agrave; l&apos;impression de factures.
+    p Je viens de d&eacute;ployer quelques correctifs suppl&eacute;mentaires,
+    ul
+      li
+        | Les quantit&eacute;s 
+        strong min/max d&apos;un produit par commande&nbsp;
+        | sont (enfin) stock&eacute;es sous la forme de quantit&eacute; (par exemple minimum 500g) et non d&apos;un prix minimum comme c&apos;&eacute;tait avant. La diff&eacute;rence est subtile mais non n&eacute;gligeable (beaucoup de petits bugs &eacute;taient du &agrave; ce d&eacute;tail d&apos;impl&eacute;mentation). Ca veut dire que vous pouvez maintenant changer le prix d&apos;un produit depuis la vue &quot;tableau&quot; sans que les quantit&eacute; min/max &nbsp;changent elle aussi.
+      li
+        | Les colonnes de statut des clients/commandes/invitations utilisaient l&apos;orthographe anglaise (status) au lieu de l&apos;orthographe fran&ccedil;aise (statut). C&apos;est vraiment pas mon truc l&apos;orthographe, n&apos;h&eacute;sitez pas &agrave; me signaler les erreurs que vous voyez dans l&apos;appli.
+      li
+        | Les modes de paiement sont maintenant de nouveau configurable (via une petite popup dans la page paiements).
+    p
+      | J&apos;ai eu des retours tr&egrave;s positifs sur la fonction de recherche (pour filtrer les listes), je compte l&apos;impl&eacute;menter sur les pages restantes (pr&eacute;paration, factures, tickets) mais &ccedil;a va prendre un peu de temps parce que ces pages sont encore bas&eacute;es sur une ancienne technologie. Je dois les r&eacute;&eacute;crire avant de pouvoir ajouter la fonction de filtrage.
+    p
+      br
