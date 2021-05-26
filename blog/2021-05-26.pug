@@ -1,0 +1,57 @@
+h1 Besoin de votre avis sur la prochaine version de l'onglet "préparation"
+.intro Une correction de bug s'est transformé en réécriture de l'écran préparation
+html
+  body
+    p
+      | Il y a actuellement un bug en production, qui touche l&apos;&eacute;cran pr&eacute;paration quand on a beaucoup de produits. En gros, l&apos;appli ne s&apos;attend pas &agrave; ce que plus de ~60 commandes contiennent un m&ecirc;me produit, mais &ccedil;a arrive de temps en temps. &Ccedil;a fait une liste plus haute que le A4 &nbsp;en portrait, et la liste d&eacute;borde sur la page suivante.
+    p
+      | En essayant de corriger &ccedil;a, j&apos;ai au final r&eacute;&eacute;crit la page de pr&eacute;paration, et le r&eacute;sultat devrait &ecirc;tre bien mieux que la page actuelle. 
+      strong Je vous invite &agrave; essayer le prototype avant qu&apos;il soit d&eacute;ploy&eacute;
+      |  et appliqu&eacute; &agrave; tout les mara&icirc;chers.
+    p
+      | Vous pouvez le 
+      strong tester sur staging
+      | , connectez vous avez vos identifiants habituels : 
+      a(href='https://staging.ciboulette.net') https://staging.ciboulette.net
+    p
+      | Allez dans une semaine ou vous avez des commandes, onglet &quot;pr&eacute;paration&quot;, et regardez si le rendu vous va ou s&apos;il y a un quelconque probl&egrave;me.
+    p
+      | Voici par exemple ce que le bug
+      strong &nbsp;(ancienne version)&nbsp;
+      | peut donner &agrave; l&apos;impression (les noms de clients sont flout&eacute;s)
+    p
+      img.fr-dib.fr-fil(src='/blog/imgs/ff1ef2b6f24f4e0dd6a6d6a46223e4695b0e4893.jpg')
+    p
+      | Pour corriger ce bug, j&apos;ai du introduire une d&eacute;coupe de chaque liste si elle est trop longue, et j&apos;en ai profit&eacute; pour &eacute;conomiser du papier m&ecirc;me dans le cas ou les listes de clients ayant command&eacute; chaque produit ne sont pas particuli&egrave;rement longues.
+    p
+      | Le m&ecirc;me r&eacute;cap ressemble maintenant &agrave; &ccedil;a 
+      strong (nouvelle version)
+      |  :
+    p
+      img.fr-dib.fr-fil(src='/blog/imgs/607fd9769cd23a9767f2d5abcda3583dee0fd7dd.jpg')
+    p
+      | Sur ce r&eacute;cap de pr&eacute;paration assez gros, on passe de 
+      strong 11 pages
+      |  (dont une vide) &agrave; 
+      strong 7 pages
+      | .
+    p
+      | J&apos;ai aussi introduit la possibilit&eacute; de lister les commandes par num&eacute;ro, au lieu du nom de client, pour gagner plus d&apos;espace. Dans ce cas, 
+      strong 5 pages
+      |  suffisent (mais vous perdez l&apos;information du nom de client, qui peut &ecirc;tre utile si vous connaissez ses pr&eacute;f&eacute;rences).
+    p
+      br
+    p
+      img.fr-dib.fr-fil(src='/blog/imgs/6d6f06f4169c8bbf251e2a2fa3eeeb4d5f7f479f.jpg')
+    p Les retours qui m&apos;int&eacute;ressent particuli&egrave;rement sont :&nbsp;
+    ul
+      li Est ce que &ccedil;a marche &agrave; l&apos;impression sur votre navigateur habituel ?
+      li Est ce que &ccedil;a rame plus que dans la vrai appli ?
+      li Est ce qu&apos;il manque quelquechose ?
+    p Certaines fonctions ont &eacute;t&eacute; retir&eacute;es, est-ce un probl&egrave;me ?
+    ul
+      li Les produits au prix n&eacute;gatif (consignes) ne sont plus list&eacute;s
+      li Les noms de clients ne sont plus clickables
+      li Il n&apos;y a plus de click droit possible pour marquer un produit comme non livr&eacute;
+      li
+        | Le bouton &quot;r&eacute;cap de cueillette&quot; est maintenant juste une case &agrave; cocher, qui ajoute en premi&egrave;re page le r&eacute;cap de cueillette (en plus de la liste de clients).

@@ -9,13 +9,20 @@
             <link>https://ciboulette.net/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 19 May 2021 23:46:35 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 May 2021 14:59:19 GMT</lastBuildDate>
         <atom:link href="https://ciboulette.net/blog/news.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Wed, 19 May 2021 23:46:35 GMT</pubDate>
+        <pubDate>Wed, 26 May 2021 14:59:19 GMT</pubDate>
         <copyright><![CDATA[All rights reserved]]></copyright>
         <language><![CDATA[fr-fr]]></language>
         <webMaster><![CDATA[renan.lecaro@ŋmail.com]]></webMaster>
         <ttl>300</ttl>
+        <item>
+            <title><![CDATA[Besoin de votre avis sur la prochaine version de l'onglet "préparation"]]></title>
+            <description><![CDATA[Une correction de bug s'est transformé en réécriture de l'écran préparation]]></description>
+            <link>https://ciboulette.net/blog/2021-05-26</link>
+            <guid isPermaLink="false">2021-05-26</guid>
+            <pubDate>Wed, 26 May 2021 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Déployé : corrections dans les calculs de totaux]]></title>
             <description><![CDATA[Les changements plus ou moins récents n'était pas tout à fait justes]]></description>
