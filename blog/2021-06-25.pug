@@ -1,0 +1,29 @@
+h1 Avancées sur le chantier de l'envoi de SMS en masse
+.intro Et un petit bug sur l'ancien système
+html
+  body
+    p Hello
+    p
+      | Cette semaine on m&apos;a signal&eacute; un client qui ne recevait pas du tout les SMS. J&apos;ai pu contacter ce client directement et faire quelques tests, c&apos;&eacute;tait la c&eacute;dille dans son nom qui plantait mon &quot;bricolage&quot; pour l&apos;envoi de SMS. Mon syst&egrave;me actuel est vraiment pas tr&egrave;s fiable, c&apos;est une appli gratuite en italien, install&eacute;e sur un tel android &agrave; l&apos;&eacute;cran cass&eacute;, h&eacute;berg&eacute; chez mon fr&egrave;re avec un forfait free 2&euro;. Malgr&eacute; tout &ccedil;a, plus de 2000 SMS sont envoy&eacute; chaque mois et en g&eacute;n&eacute;ral &ccedil;a fonctionne.
+    p
+      | J&apos;ai juste peur qu&apos;on atteigne la limite d&apos;&quot;usage raisonnable&quot; du forfait free, c&apos;est pourquoi je bosse sur une solution qui permette d&apos;h&eacute;berger 8 cartes SIM free, pour envoyer 8 fois plus de messages, et si possible d&apos;une mani&egrave;re plus fiable avec du mat&eacute;riel fait pour.
+    p
+      img.fr-dib.fr-fil(src='/blog/imgs/f29b84fbc11e3123f98d7b49fe1bb3dc1c90adbb.jpg')
+    p
+      | J&apos;ai d&eacute;j&agrave; le modem, il me reste &agrave; programmer l&apos;interface entre celui-ci et ciboulette.
+    p
+      | La premi&egrave;re &eacute;tape est de cr&eacute;er une &quot;
+      strong file d&apos;attente
+      | &quot; des SMS &agrave; envoyer, que mon syst&egrave;me pourra utiliser pour faire des envois de masse. C&apos;est ce que j&apos;ai d&eacute;velopp&eacute; les derniers jours, et que 
+      strong je d&eacute;ploie ce soir
+      | . Les changements devraient &ecirc;tre mineurs pour vous, mais signalez moi si il y a un quelconque 
+      strong bug dans l&apos;envoi de sms ou d&apos;emails
+      | .
+    p
+      | Une des questions qu&apos;il me reste c&apos;est &quot;ou h&eacute;berger ce nouveau syst&egrave;me ?&quot;. Il faut une bonne couverture r&eacute;seau, un wifi fiable, une adresse fixe (pas de d&eacute;m&eacute;nagement dans les prochaines ann&eacute;es id&eacute;alement) et un h&ocirc;tes qui t&acirc;tes un peu en informatique (pour connecter le hdmi correctement, l&apos;usb 2.0 du bon cot&eacute;, etc...). Peut &ecirc;tre que l&apos;un d&apos;entre-vous correspond ?
+    p
+      | Sinon je rentre bient&ocirc;t en France (1er Juillet) et je pense rester deux mois au moins. &Ccedil;a ne devrait rien changer pour vous.
+    p
+      | J&apos;ai beaucoup cod&eacute; les 12 derniers mois, je ralentie un peu le rythme maintenant pour profiter de l&apos;&eacute;t&eacute;, ne pas me surmener, et &eacute;viter de faire planter la prod avec des mises &agrave; jours trop ambitieuses pendant la haute saison.
+    p Bon week-end
+    p Renan
