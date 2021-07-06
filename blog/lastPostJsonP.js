@@ -1,3 +1,3 @@
 
-  window.blogLastUpdated && window.blogLastUpdated({"title":"Avancées sur le chantier de l'envoi de SMS en masse","url":"https://ciboulette.net/blog/2021-06-25","date":"2021-06-25T00:00:00.000Z"});
+  window.blogLastUpdated && window.blogLastUpdated({"title":"Déployé : nouveau système de SMS","url":"https://ciboulette.net/blog/2021-07-06","date":"2021-07-06T00:00:00.000Z"});
   
